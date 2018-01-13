@@ -21,7 +21,7 @@ function curlGet($url, $method = 'get', $data = '')
 
 <head>
 	<meta charset='utf-8' />
-	<title>首农送福</title>
+	<title>首农送福 戊戌大吉</title>
 	<meta name='viewport' content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no'
 	/>
 	<meta name="renderer" content="webkit">
@@ -103,6 +103,27 @@ function curlGet($url, $method = 'get', $data = '')
 			left: 0;
 			z-index: -1;
 		}
+			.code{
+			position: absolute;
+			z-index: 10;
+			bottom:60px;
+			width: 30px;
+			height: 30px;
+			left: 50%;
+			margin-left: -15px;
+			display: none;
+		}
+		.pc{
+		  position:absolute;
+		  bottom:0px;
+		  height:300px;
+		  bottom:100px;
+		  z-index:100;
+			width:100%;
+			left: 0;
+			opacity: 0.01;
+			display: none;
+		}
 	</style>
 </head>
 
@@ -120,9 +141,14 @@ function curlGet($url, $method = 'get', $data = '')
 			跳过
 		</div>
 		<div class="top"></div>
-		<video src="mp4/mov.mp4" preload="auto" id="mov"></video>
+		<video src="mp4/mov.mp4" preload="auto"  id="mov"></video>
 	</div>
-    <audio src="mp4/music.mp3" preload="auto" id="music">
+	<img src="images/p1.jpg" class="pc" id="pc1">
+	<img src="images/p2.jpg" class="pc" id="pc2">
+	<img src="images/p3.jpg" class="pc" id="pc3">
+	<img src="images/p4.jpg" class="pc" id="pc4">
+	<img src="images/p5.jpg" class="pc" id="pc5">
+    <audio src="mp4/music.mp3" id="music" loop="loop"> 
         <!--核心包，封装了显示对象渲染，事件，时间管理，时间轴动画，缓动，消息交互,socket，本地存储，鼠标触摸，声音，加载，颜色滤镜，位图字体等-->
         <script type="text/javascript" src="libs/min/laya.core.min.js"></script>
         <!--是动画模块，包含了swf动画，骨骼动画等-->
@@ -130,11 +156,11 @@ function curlGet($url, $method = 'get', $data = '')
         <!--粒子类库-->
         <script type="text/javascript" src="libs/min/laya.ui.min.js"></script>
         <script type="text/javascript" src="libs/min/jweixin-1.0.0.js"></script>
-        <script src="src/ui/layaUI.max.all.js"></script>
+        <script src="src/ui/layaUI.max.all.js?v=324333343"></script>
         <!--自定义的js(bin/js文件夹下)文件自动添加到下面jsfile模块标签里面里，js的顺序可以手动修改，修改后保留修改的顺序，新增加的js会默认依次追加到标签里-->
         <!--删除标签，ide不会自动添加js文件，请谨慎操作-->
         <!--jsfile--startTag-->
-        <script src="src/main.js"></script>
+        <script src="src/main.js?v=324333343"></script>
         <!--jsfile--endTag-->
         <script type="text/javascript">
     var _mtac = {};
@@ -151,9 +177,9 @@ function curlGet($url, $method = 'get', $data = '')
         );
         wx.ready(function () {
             wx.onMenuShareTimeline({
-                title: '首农送福', // 分享标题
+                title: '首农给您送福啦！', // 分享标题
                 link: 'http://www.simamedia.cn/games/sn/index.php', // 分享链接
-                imgUrl: 'http://www.simamedia.cn/games/sn/images/logo_all-1.png', // 分享图标
+                imgUrl: 'http://www.simamedia.cn/games/sn/images/icon.png', // 分享图标
                 success: function () {
                     MtaH5.clickStat('shareCircle');
                 },
@@ -161,10 +187,10 @@ function curlGet($url, $method = 'get', $data = '')
                 }
             });
             wx.onMenuShareAppMessage({
-                title: '首农送福', // 分享标题
-                desc: '新时代 新舞台，首农送福，数字金融，普惠大众！', // 分享描述
+                title: '首农给您送福啦！', // 分享标题
+                desc: '福气从天降，谁也挡不住啊！', // 分享描述
                 link: 'http://www.simamedia.cn/games/sn/index.php', // 分享链接
-                imgUrl: 'http://www.simamedia.cn/games/sn/images/logo_all-1.png', // 分享图标
+                imgUrl: 'http://www.simamedia.cn/games/sn/images/icon.png', // 分享图标
                 type: 'link', // 分享类型,music、video或link，不填默认为link
                 dataUrl: '', // 如果type是music或video，则要提供数据链接，默认为空
                 success: function () {

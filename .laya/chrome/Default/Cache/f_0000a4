@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Language" content="zh-cn" />
+    <meta name="keywords" content="Best Moments&#45;Blazo,音乐,QQ音乐,在线听歌,音乐下载,音乐播放器,音乐网站,MV,巅峰榜,音乐排行榜,翻译歌曲,热门歌曲,经典老歌,无损音乐,无损曲库"/>
+    <meta name="description" content="QQ音乐是腾讯公司推出的一款网络音乐服务产品，海量音乐在线试听、新歌热歌在线首发、歌词翻译、手机铃声下载、高品质无损音乐试听、海量无损曲库、正版音乐下载、空间背景音乐设置、MV观看等，是互联网音乐播放和下载的优选。" />
+    <meta name="mobile-agent" content="format==[html5];url=//m.y.qq.com">
+    <meta name="applicable-device" content="pc">
+<title>Best Moments&#45;Blazo - QQ音乐-千万正版音乐海量无损曲库新歌热歌天天畅听的高品质音乐平台！</title>
+<script type="text/javascript">
+    var _speedMark = new Date();
+</script>
+          
+<script id="mod_spt">
+if(window.location.protocol!='https:')window.location.replace(window.location.href.replace('http://', 'https://'));
+document.domain = 'qq.com';
+var _songParams = window.location.href.match(/portal\/song3\/(\d+)\/(\d+)\/(\d+)\.html/);
+var songtype = 0,
+    disstid = 0,
+    songid = 0;
+if(!!_songParams&&_songParams.length>2){
+	songtype = _songParams[1];
+	disstid = _songParams[2];
+}
+_songParams = window.location.href.match(/portal\/song(\d+)\/(\d+)\/(\d+)\.html/);
+if(!!_songParams&&_songParams.length>3){
+	songtype = _songParams[2];
+	songid = _songParams[3];
+}
+
+function getParameterNew(url, name) {
+    var r = new RegExp("(\\?|#|&)" + name + "=([^&#\\?]*)(&|#|$|\\?)");
+    var m = url.match(r);
+    if ((!m || m == "")){
+        m = window.location.href.match(r);
+	}
+    return (!m ? "" : m[2]);
+};
+var no_redirect = parseInt(getParameterNew(window.location.href, 'no_redirect'))||0;
+if(navigator.userAgent.match(/Android|iPhone|iPod/i) && 1330067 > 0 && no_redirect == 0){
+	if(!!disstid&&!!songtype){
+		window.location.replace("http://i.y.qq.com/v8/playsong.html?ADTAG=newyqq.song&songid=1330067&songtype="+songtype+"&disstid="+disstid+"#webchat_redirect");
+	}else {
+	if(!!songtype){
+		window.location.replace("http://i.y.qq.com/v8/playsong.html?ADTAG=newyqq.song&songid=1330067&songtype="+songtype+"#webchat_redirect");
+	}else 
+	
+		window.location.replace("http://i.y.qq.com/v8/playsong.html?ADTAG=newyqq.song&songmid=002L8cUX4dsEWl#webchat_redirect");
+	
+	}
+}
+(function(m, o, d, u, l, a, r) {
+	if(m[o]) {return;}  
+	function f(n) { 
+		return function() { r.push(n, arguments); return a; }
+	}  
+	m[o] = a = { 
+		args: (r = []),	resourceMap : f(0),	async: f(1)
+	};
+	u = d.createElement("script");  
+	u.id = o + "node"; 
+	u.async = true;  
+	u.src = "//y.gtimg.cn/c/=/music/portal/js/common/map.js,/music/portal/js/common/music/mod.js?r=" + parseInt(new Date()/600000) ;  
+	l = d.getElementsByTagName("head")[0];  
+	l.appendChild(u);
+})(window, "require", document); 
+window.SPD={_timing:{},_start:(new Date()),mark:function(a,b){this._timing[a]=(b||new Date())-this._start}};
+</script>
+    <link rel="stylesheet" href="//y.gtimg.cn/mediastyle/yqq/layout0913.css?max_age=25920000" />
+<link rel="stylesheet" href="//y.gtimg.cn/mediastyle/yqq/song_detail.css?max_age=2592000" />
+<script type="text/javascript">SPD.mark(31); </script> 
+<script>
+var g_SongData = {"songurl":"","songid":1330067,"songmid":"002L8cUX4dsEWl","songtype":0,"songname":"Best Moments","songtitle":"Best Moments","songsubtitle":"","type":0,"cdIdx":0,"interval":211,"isonly":1,"singer":[{"id":39950,"mid":"003iFiD81YMEkH","name":"Blazo","title":"Blazo","type":0,"uin":0},{"id":27769,"mid":"004TO6703Bm6GZ","name":"Kondor","title":"Kondor","type":0,"uin":0}],"albumid":108224,"albummid":"000AFF9K4TSPcs","albumname":"ALONE JOURNEY","strMediaMid":"0032EV7n1qW9cz","sizeape":0,"preview":{"trybegin":0,"tryend":0,"trysize":0},"pay":{"payalbumprice":0,"payplay":0,"timefree":0},"msgid":14,"switch":632579,"alertid":100002,"action":{"play_lq":1,"play_hq":0,"play_sq":0,"down_lq":0,"down_hq":0,"down_sq":0,"soso":0,"fav":1,"share":1,"bgm":1,"ring":0,"sing":0,"radio":1,"try":0,"give":1,"play":1},"tryPlay":0,"anyPlay":1,"tryIcon":0,"disabled":0,"sosoFlag":0,"formatted":1,"mtype":"qqmusic","mid":"1330067","singername":"Blazo","singerid":39950,"singermid":"003iFiD81YMEkH","fav":""};
+</script>
+<script>
+if(navigator.userAgent.match(/Android|iPhone|iPod/i) && 1330067 > 0 && no_redirect == 0){
+		window.location.replace("http://i.y.qq.com/v8/playsong.html?songid=1330067#webchat_redirect");
+}
+</script>
+</head>
+<body>
+       <!-- 头部 S -->
+
+<script>
+if(window.ActiveXObject || window.msIsStaticHTML){
+	var ie = 6;
+
+	if(!!window.XMLHttpRequest) {ie = 7}; 
+	if(navigator.userAgent.indexOf("MSIE 7.0")!=-1) {ie = 7}; 
+	if(navigator.userAgent.indexOf("Trident/4.0")!=-1){ie = 8}; 
+	if(navigator.userAgent.indexOf("Trident/5.0") != -1){ie = 9};
+	if(navigator.userAgent.indexOf("Trident/6.0") != -1){ie = 10};
+	if(navigator.userAgent.indexOf("Trident/7.0") != -1 || "undefined" == typeof attachEvent){ie = 11};
+	if (ie < 8) {
+		document.write("<div class=\"popup_top\"  id=\"zoom_warn\">使用更高版本的 <a href=\"http://www.google.cn/intl/zh-CN/chrome/browser/desktop/\" target=\"_blank\">Chrome</a> 或 <a href=\"https://support.microsoft.com/zh-cn/help/17621/internet-explorer-downloads\" target=\"_blank\">Internet Explorer</a>，体验更精彩</div>");
+	}
+}</script>
+<div class="mod_header">
+    <div class="section_inner">
+        <h1 class="qqmusic_title"><a href="//y.qq.com"><img srcset="//y.gtimg.cn/mediastyle/yqq/img/logo@2x.png?nowebp=1 2x" src="//y.gtimg.cn/mediastyle/yqq/img/logo.png?nowebp=1" alt="QQ音乐" class="qqmusic_logo"/></a></h1>
+        <!-- 导航 S -->
+        <ul class="mod_top_nav" role="nav">
+            <li class="top_nav__item">
+                <a href="//y.qq.com" class="top_nav__link top_nav__link--current" title="音乐馆">音乐馆</a>
+            </li>
+            <li class="top_nav__item">
+                <a href="/portal/profile.html" class="top_nav__link" title="我的音乐">我的音乐</a>
+            </li>
+            <li class="top_nav__item">
+                <a href="//y.qq.com/download/index.html" class="top_nav__link" title="客户端" rel="noopener" target="_blank">客户端</a>
+            </li>
+	    <li class="top_nav__item">
+	        <a href="//y.qq.com/vip/daren_recruit/apply.html" data-stat="y_new.top.darenrecruit" class="top_nav__link js_nav_click" title="音乐号" rel="noopener" target="_blank">音乐号</a>
+	    </li>
+	    <li class="top_nav__item">
+	        <a href="//y.qq.com/portal/vipportal/index.html" class="top_nav__link" title="VIP" rel="noopener" target="_blank">VIP</a>
+	    </li>
+        </ul>
+	    <ul class="mod_top_subnav" style="display:;">
+		<li class="top_subnav__item">
+		    <a href="//y.qq.com" class="top_subnav__link">首页</a>
+		</li>
+		<li class="top_subnav__item">
+		    <a href="/portal/singer_list.html" class="top_subnav__link">歌手</a>
+		</li>
+		<li class="top_subnav__item">
+		    <a href="/portal/album_lib.html" class="top_subnav__link">专辑</a>
+		</li>
+		<li class="top_subnav__item">
+		    <a href="/n/yqq/toplist/4.html" class="top_subnav__link">排行榜</a>
+		</li>
+		<li class="top_subnav__item">
+		    <a href="/portal/playlist.html" class="top_subnav__link">分类歌单</a>
+		</li>
+		<li class="top_subnav__item">
+		    <a href="/portal/radio.html" class="top_subnav__link">电台</a>
+		</li>
+		<li class="top_subnav__item">
+		    <a href="/portal/mv_lib.html#t6=2" class="top_subnav__link">MV</a>
+		</li>
+		<li class="top_subnav__item">
+		    <a href="/portal/album_mall.html" class="top_subnav__link">数字专辑</a>
+		</li>
+	    </ul>
+        <!-- 导航 E -->
+                <div class="mod_top_search" role="search">
+                    <div class="mod_search_input">
+                        <input class="search_input__input" aria-label="请输入搜索内容" type="text" placeholder="" accesskey="s"/>
+                        <button class="search_input__btn"><i class="icon_search sprite"></i><span class="icon_txt">搜索</span></button>
+                    </div>
+                </div>
+        <div class="header__opt">
+
+               
+                <!-- 未登录 -->
+                <span class="mod_top_login">
+		    <a class="top_login__link js_logined" href="//y.qq.com/portal/profile.html#stat=y_new.top.user_pic" onclick="setStatCookie&&setStatCookie();" style="display:none;">
+                        <img src="//y.gtimg.cn/mediastyle/global/img/person_300.png?max_age=2592000" class="top_login__cover" alt="" />
+                    </a>
+                    <a class="top_login__link js_login" data-stat="y_new.top.login" href="javascript:;">
+                        登录
+                    </a>
+
+                    <a class="login__link header__link js_login" data-stat="y_new.top.login" href="javascript:;">登录</a>
+                    <a class="mod_btn_green top_login__btn_vip js_openvip" data-aid="music.pc.20316.newyqqtop" data-stat="music.20316.btnclick.pc" href="javascript:;">开通绿钻豪华版</a>
+		    <a class="mod_btn top_login__btn_vip js_openmusic" data-aid="music.pc.20317.newyqqtop" data-stat="music.20317.btnclick.pc" href="javascript:;">开通付费包</a>
+                </span>
+		<!-- 用户信息 -->
+		    <div class="popup_user">
+		    </div>
+            </div>
+        </div>
+    </div>
+    <!-- 头部 E -->
+
+	<div class="main" >
+		<div class="mod_data" itemscope itemtype="http://schema.org/MusicRecording" style="display:;">
+		    <span class="data__cover">
+			
+				<img src="//y.gtimg.cn/music/photo_new/T002R300x300M000000AFF9K4TSPcs.jpg?max_age=2592000" onerror="this.src='//y.gtimg.cn/mediastyle/global/img/album_300.png?max_age=31536000';this.onerror=null;" alt="ALONE&#32;JOURNEY" class="data__photo"/>
+			
+		    </span>
+		    <div class="data__cont">
+			<div class="data__name">
+			    <h1 class="data__name_txt" title="Best Moments">Best Moments</h1>
+			</div>
+			
+			<div class="data__singer">
+			    <i class="icon_singer sprite"></i>
+			
+				
+				
+				<a href="//y.qq.com/n/yqq/singer/003iFiD81YMEkH.html" data-mid="003iFiD81YMEkH" title="Blazo" class="data__singer_txt js_singer" data-stat="y_new.song.header.singername" itemprop="byArtist"> Blazo </a>
+				
+				 <span class="data__singer_line">/</span>
+				<a href="//y.qq.com/n/yqq/singer/004TO6703Bm6GZ.html" data-mid="004TO6703Bm6GZ" title="Kondor" class="data__singer_txt js_singer" data-stat="y_new.song.header.singername" itemprop="byArtist"> Kondor </a>
+				
+			
+			</div>
+			
+		 
+			<ul class="data__info">
+			
+			    <li class="data_info__item">专辑：<a href="//y.qq.com/n/yqq/album/000AFF9K4TSPcs.html" itemprop="inAlbum" class="js_album" data-stat="y_new.song.header.albumname" data-albummid="000AFF9K4TSPcs" data-albumid="108224" title="ALONE JOURNEY">ALONE JOURNEY</a></li>
+			
+			    <li class="data_info__item data_info__item--even js_lan">语种：纯音乐</li>
+			    <li class="data_info__item js_genre">流派：</li>
+			    <li class="data_info__item data_info__item--even js_company">发行公司：</li>
+						
+			 
+						<li class="data_info__item js_public_time">发行时间：</li>
+			    
+			
+			</ul>
+		
+			<div class="data__actions" role="toolbar">
+			    <a href="//y.qq.com/portal/player.html" class="mod_btn_green js_all_play"><i class="mod_btn_green__icon_play"></i>播放</a>
+			    <a href="javascript:;" class="mod_btn js_all_like"><i class="mod_btn__icon_like"></i>收藏</a>
+			    
+			    <a href="javascript:;" class="mod_btn js_more" data-stat="y_new.song.header.more"  data-mid="002L8cUX4dsEWl"><i class="mod_btn__icon_menu"></i>更多</a>
+			    
+			</div>
+		    </div>
+		</div>
+			
+					
+		<div class="detail_layout">
+		    <div class="detail_layout__main">
+				
+				<!--歌词_S-->			
+			<div class="mod_lyric">
+			    <input id="copy_content" style="display:none;"></input>
+			    <div class="lyric__hd">
+				<h2 class="lyric__tit">歌词</h2><a class="btn_copy sprite" id="copy_link" href="javascript:;" onclick="copyLyric('copy_content');" data-clipboard-target="copy_content" title="复制歌词"><i class="icon_txt">复制</i></a>
+			    </div>
+			    <div class="lyric__cont" id="lrc_content">
+			    </div>
+			</div>
+				<!--歌词_E-->
+		    </div>
+				
+		    <div class="detail_layout__other">
+			<div class="mod_about" id="album_desc" style="display:none;">
+			<h3 class="about__tit">简介</h3>
+			    <div class="about__cont">        
+			    </div>
+			    <a href="javascript:;" class="about__more" data-stat="y_new.song.moreinfo" data-left="0" data-top="-185" data-target="popup_data_detail">[更多]</a>
+			</div>
+
+			<div class="other_part" style="display:none;" id="song_playlist">
+			    <h3 class="other_part__tit">包含此单曲的热门歌单</h3>
+			    <div class="mod_playlist">
+				<ul class="playlist__list">
+				</ul>
+			    </div>
+			</div>
+
+			<div class="other_part" id="song_mv">
+			</div>
+		    </div>
+				
+		</div>
+			
+        <div class="popup_data_detail" id="popup_data_detail" style="display:none;">
+            <div class="popup_data_detail__cont">
+                <h3 class="popup_data_detail__tit">专辑简介</h3>
+            </div>
+            <i class="popup_data_detail__arrow"></i>
+        </div>
+			
+    </div> 
+			
+	<div class="mod_operate_menu" id="menu_menu" data-aria="popup" style="display:none;">
+            <div class="operate_menu__cont">
+                <ul role="menu" class="operate_menu__list">
+                    <li class="operate_menu__item">
+                         <a href="javascript:;" class="operate_menu__link js_all_fav" data-target="menu_add"><i class="operate_menu__icon_add sprite"></i>添加到<i class="operate_menu__icon_arrow"></i></a>
+                    </li>
+                    <li class="operate_menu__item">
+                         <a href="javascript:;" class="operate_menu__link js_all_share" data-target="menu_share"><i class="operate_menu__icon_share sprite"></i>分享<i class="operate_menu__icon_arrow"></i></a>
+                    </li>
+                    <li class="operate_menu__item">
+                         <a href="javascript:;" class="operate_menu__link js_all_down"><i class="operate_menu__icon_down sprite"></i>下载</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+			
+    <!-- 跟头图保持一致 -->
+    <div class="bg_detail"><i class="bg_detail__pic" style="background-image:url(//y.gtimg.cn/music/photo_new/T002R300x300M000000AFF9K4TSPcs.jpg?max_age=2592000);"></i></div>
+
+
+    <div class="footer" role="footer">
+    <div class="section_inner">
+        <div class="footer_info">
+
+            <div class="footer_download">
+                <h3 class="footer_tit">下载QQ音乐客户端</h3>
+                <ul class="footer_download_list">
+                    <li class="footer_download_list__item"><a href="//y.qq.com/download/" class="js_footer_down" data-type="pc" data-stat="y_new.footer.download.pc"><i class="icon_qm_pc"><span class="icon_txt">QQ音乐</span></i>PC版</a></li>
+                    <li class="footer_download_list__item"><a href="//y.qq.com/download/" class="js_footer_down" data-type="mac" data-stat="y_new.footer.download.mac"><i class="icon_qm_mac"><span class="icon_txt">QQ音乐</span></i>Mac版</a></li>
+                    <li class="footer_download_list__item"><a href="//y.qq.com/download/" class="js_footer_down" data-type="andriod" data-stat="y_new.footer.download.andriod"><i class="icon_qm_android"><span class="icon_txt">QQ音乐</span></i>Android版</a></li>
+                    <li class="footer_download_list__item"><a href="//y.qq.com/download/" class="js_footer_down" data-type="iphone" data-stat="y_new.footer.download.iphone"><i class="icon_qm_iphone"><span class="icon_txt">QQ音乐</span></i>iPhone版</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_product">
+                <h3 class="footer_tit">特色产品</h3>
+                <ul class="footer_product_list">
+                    <li class="footer_product_list__item footer_product_list__item--pic"><a href="http://kg.qq.com/?pgv_ref=qqmusic.y.topmenu" rel="noopener" target="_blank" class="js_other_link" data-stat="y_new.footer.other_music.k"><i class="icon_qm_kg"></i>全民K歌</a></li>
+                    <li class="footer_product_list__item footer_product_list__item--pic"><a href="http://y.qq.com/vip/voice_intro/index.html" rel="noopener" target="_blank" class="js_other_link" data-stat="y_new.footer.other_music.supersound"><i class="icon_qm_ss"></i>Super Sound</a></li>
+                    <li class="footer_product_list__item footer_product_list__item--pic"><a href="http://y.qq.com/y/static/down/qplay.html?pgv_ref=qqmusic.y.topmenu" rel="noopener" target="_blank" class="js_other_link" data-stat="y_new.footer.other_music.qplay"><i class="icon_qm_qp"></i>QPlay</a></li>
+                    <li class="footer_product_list__item"><a href="http://y.qq.com/y/static/down/car_introduce.html" rel="noopener" target="_blank" class="js_other_link" data-stat="y_new.footer.other_music.car_play">车载互联</a></li>
+                    <li class="footer_product_list__item"><a href="http://y.qq.com/yanchu/?pgv_ref=qqmusic.y.topmenu" rel="noopener" target="_blank" class="js_other_link" data-stat="y_new.footer.other_music.yanchu">QQ演出</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_link">
+                <h3 class="footer_tit">合作链接</h3>
+                <!-- 显示全部 footer_link_list--show -->
+                <ul class="footer_link_list">
+                    <li class="footer_link_list__item"><a href="//y.qq.com/portal/company_detail.html?id=297" rel="noopener" target="_blank" class="js_other_link" data-stat="y_new.footer.other_link">CJ E&M</a></li>
+                    <li class="footer_link_list__item"><a href="http://v.qq.com/" rel="noopener" target="_blank" class="js_other_link" data-stat="y_new.footer.other_link">腾讯视频</a></li>
+                    <li class="footer_link_list__item"><a href="http://z.qzone.com/" rel="noopener" target="_blank" class="js_other_link" data-stat="y_new.footer.other_link">手机QQ空间</a></li>
+                    <li class="footer_link_list__item"><a href="http://im.qq.com/" rel="noopener" target="_blank" class="js_other_link" data-stat="y_new.footer.other_link">最新版QQ</a></li>
+                    <li class="footer_link_list__item"><a href="http://e.qq.com/index.shtml" rel="noopener" target="_blank" class="js_other_link" data-stat="y_new.footer.other_link">腾讯社交广告</a></li>
+                    <li class="footer_link_list__item"><a href="http://guanjia.qq.com/" rel="noopener" target="_blank" class="js_other_link" data-stat="y_new.footer.other_link">电脑管家</a></li>
+                    <li class="footer_link_list__item"><a href="http://browser.qq.com/" rel="noopener" target="_blank" class="js_other_link" data-stat="y_new.footer.other_link">QQ浏览器</a></li>
+                    <li class="footer_link_list__item"><a href="http://www.weiyun.com/" rel="noopener" target="_blank" class="js_other_link" data-stat="y_new.footer.other_link">腾讯微云</a></li>
+                    <li class="footer_link_list__item"><a href="https://cloud.tencent.com/" rel="noopener" target="_blank" class="js_other_link" data-stat="y_new.footer.other_link">腾讯云</a></li>
+                    <li class="footer_link_list__item"><a href="http://fm.qq.com/" rel="noopener" target="_blank" class="js_other_link" data-stat="y_new.footer.other_link">企鹅FM</a></li>
+                    <li class="footer_link_list__item"><a href="http://www.znds.com/" rel="noopener" target="_blank" class="js_other_link" data-stat="y_new.footer.other_link">智能电视网</a></li>
+                    <li class="footer_link_list__item"><a href="http://www.dangbei.com/" rel="noopener" target="_blank" class="js_other_link" data-stat="y_new.footer.other_link">当贝市场</a></li>
+                    <!--li class="footer_link_list__item js_last" style="display:none;"><a href="http://fm.qq.com/" rel="noopener" target="_blank" class="js_other_link" data-stat="y_new.footer.other_link">企鹅FM</a></li>
+                    <li class="footer_link_list__item"><a href="javascript:;" class="js_footer_more">更多</a></li>
+                    <li class="footer_link_list__item footer_link_list__item--more"><a href="https://www.qcloud.com/" rel="noopener" target="_blank" class="js_other_link" data-stat="y_new.footer.other_link">腾讯云</a></li-->
+                </ul>
+            </div>
+            <div class="footer_platform">
+                    <h3 class="footer_tit">开放平台</h3>
+                    <ul class="footer_platform_list">
+                        <li class="footer_platform_list__item"><a href="http://y.tencentmusic.com/" target="_blank" class="js_other_link" data-stat="y_new.footer.other_music.tme">腾讯音乐人平台</a></li>
+                        <li class="footer_platform_list__item"><a href="//y.qq.com/vip/daren_recruit/apply.html" target="_blank" class="js_other_link" data-stat="y_new.footer.other_music.daren_recruit">音乐号认证</a></li>
+                        <li class="footer_platform_list__item"><a href="//y.qq.com/portal/mv/mv_upload.html" target="_blank" class="js_other_link" data-stat="y_new.footer.other_music.ugc">上传视频</a></li>
+                        <li class="footer_platform_list__item"><a href="http://y.qq.com/cp/homepage.html#/home" target="_blank" class="js_other_link" data-stat="y_new.footer.other_music.cp">上传音频</a></li>
+                        
+                        
+                    </ul>
+                </div>
+        </div>
+        <div class="footer_copyright">
+		
+		<p >
+			<a href="http://www.tencent.com/" rel="noopener nofollow" target="_blank" title="关于腾讯">关于腾讯</a> | 
+			<a href="http://www.tencent.com/index_e.shtml" rel="noopener nofollow" target="_blank" title="About Tencent">About Tencent</a> | 
+			<a href="http://www.qq.com/contract.shtml" rel="noopener nofollow" target="_blank" title="服务条款">服务条款</a> | 
+			<a href="http://y.qq.com/y/static/tips/service_tips.html" rel="noopener nofollow" target="_blank" title="用户服务协议">用户服务协议</a> | 
+			<a href="http://www.qq.com/privacy.htm" rel="noopener nofollow" target="_blank" title="隐私政策">隐私政策</a> | 
+			<a href="https://y.qq.com/vip/right_declare/index.html" rel="noopener nofollow" target="_blank" title="权利声明">权利声明</a> | 
+			<a href="http://www.tencentmind.com/" rel="noopener nofollow"" target="_blank" title="广告服务">广告服务</a> | 
+			<a href="http://hr.tencent.com/" rel="noopener nofollow" target="_blank" title="腾讯招聘">腾讯招聘</a> | 
+			<a href="http://service.qq.com/" rel="noopener nofollow" target="_blank" title="客服中心">客服中心</a> | 
+			<a href="http://www.qq.com/map/" rel="noopener nofollow" target="_blank" title="网站导航">网站导航</a>
+		</p>
+
+            <p>Copyright &copy; 1998 - <script type="text/javascript">document.write(new Date().getFullYear());</script> Tencent. <a target="_blank" href="http://www.tencent.com/en-us/le/copyrightstatement.shtml" rel="noopener nofollow" title="All Rights Reserved.">All Rights Reserved.</a></p>
+	<p>腾讯公司 <a  target="_blank" href="http://www.tencent.com/zh-cn/le/copyrightstatement.shtml" rel="noopener nofollow" title="版权所有">版权所有</a> <a  target="_blank" href="http://www.tencent.com/law/mo_law.shtml?/law/copyright.htm" rel="noopener nofollow" title="腾讯网络文化经营许可证">腾讯网络文化经营许可证</a></p>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<script>SPD.mark(32); </script>
+<script type="text/javascript">require.resourceMap({"res":{"js/v4/OFPLite_selector.js":{"deps":["js/common/music.js"],"url":"//y.gtimg.cn/music/portal/js/v4/OFPLite_selector_537ab56.js?max_age=31536000","m":"537ab56"},"js/v4/album.js":{"deps":["js/common/music.js"],"url":"//y.gtimg.cn/music/portal/js/v4/album_3b227f1.js?max_age=31536000","m":"3b227f1"},"js/v4/album.js.bak":{"url":"/music/portal/js/v4/album.js.bak?max_age=31536000"},"js/v4/album_lib.js":{"deps":["js/common/music.js","js/common/indexDB.js"],"url":"//y.gtimg.cn/music/portal/js/v4/album_lib_3cde0e4.js?max_age=31536000","m":"3cde0e4"},"js/v4/album_lib.js.bak":{"url":"/music/portal/js/v4/album_lib.js.bak?max_age=31536000"},"js/v4/album_mall.js":{"deps":["js/common/music.js"],"url":"//y.gtimg.cn/music/portal/js/v4/album_mall_3ee6828.js?max_age=31536000","m":"3ee6828"},"js/v4/audio/audio_edit.js":{"deps":["js/common/music.js","js/common/music/lib/position.js","js/v4/audio/audio_util.js","js/v4/public/util.js"],"url":"//y.gtimg.cn/music/portal/js/v4/audio/audio_edit_f1deeb8.js?max_age=31536000","m":"f1deeb8"},"js/v4/audio/audio_edit.js.bak":{"url":"/music/portal/js/v4/audio/audio_edit.js.bak?max_age=31536000"},"js/v4/audio/audio_util.js":{"deps":["js/common/music.js"],"url":"//y.gtimg.cn/music/portal/js/v4/audio/audio_util_64aa843.js?max_age=31536000","m":"64aa843"},"js/v4/audio/radio_detail.js":{"deps":["js/common/music.js","js/v4/audio/audio_util.js","js/v4/public/util.js"],"url":"//y.gtimg.cn/music/portal/js/v4/audio/radio_detail_90a1be5.js?max_age=31536000","m":"90a1be5"},"js/v4/audio/radio_detail.js.bak":{"url":"/music/portal/js/v4/audio/radio_detail.js.bak?max_age=31536000"},"js/v4/audio/radio_edit.js":{"deps":["js/common/music.js","js/v4/audio/audio_util.js","js/v4/public/util.js"],"url":"//y.gtimg.cn/music/portal/js/v4/audio/radio_edit_d86ed49.js?max_age=31536000","m":"d86ed49"},"js/v4/audio/radio_edit.js.bak":{"url":"/music/portal/js/v4/audio/radio_edit.js.bak?max_age=31536000"},"js/v4/audio/radio_list.js":{"deps":["js/common/music.js","js/v4/audio/audio_util.js","js/v4/public/util.js"],"url":"//y.gtimg.cn/music/portal/js/v4/audio/radio_list_4e4b79c.js?max_age=31536000","m":"4e4b79c"},"js/v4/audio/radio_list.js.bak":{"url":"/music/portal/js/v4/audio/radio_list.js.bak?max_age=31536000"},"js/v4/company.js":{"deps":["js/common/music.js","js/common/music/lib/base.js"],"url":"//y.gtimg.cn/music/portal/js/v4/company_83edfbe.js?max_age=31536000","m":"83edfbe"},"js/v4/company.js.bak":{"url":"/music/portal/js/v4/company.js.bak?max_age=31536000"},"js/v4/headline/editor.js":{"deps":["js/common/music.js","js/common/music/lib/position.js","js/v4/public/util.js","js/common/indexDB.js"],"url":"//y.gtimg.cn/music/portal/js/v4/headline/editor_f2307e3.js?max_age=31536000","m":"f2307e3"},"js/v4/headline/editor.js.bak":{"url":"/music/portal/js/v4/headline/editor.js.bak?max_age=31536000"},"js/v4/headline/editor_bak.js":{"deps":["js/common/music.js","js/common/music/lib/position.js","js/v4/public/util.js","js/common/indexDB.js"],"url":"//y.gtimg.cn/music/portal/js/v4/headline/editor_bak_471340f.js?max_age=31536000","m":"471340f"},"js/v4/headline/font2img.js":{"deps":["js/common/music.js"],"url":"//y.gtimg.cn/music/portal/js/v4/headline/font2img_d751d3c.js?max_age=31536000","m":"d751d3c"},"js/v4/headline/font2img.js.bak":{"url":"/music/portal/js/v4/headline/font2img.js.bak?max_age=31536000"},"js/v4/headline/manage.js":{"deps":["js/common/music.js","js/v4/headline/util.js","js/v4/public/util.js"],"url":"//y.gtimg.cn/music/portal/js/v4/headline/manage_623a5c4.js?max_age=31536000","m":"623a5c4"},"js/v4/headline/manage.js.bak":{"url":"/music/portal/js/v4/headline/manage.js.bak?max_age=31536000"},"js/v4/headline/notes.js":{"deps":["js/common/music.js","js/v4/headline/util.js"],"url":"//y.gtimg.cn/music/portal/js/v4/headline/notes_3842cb6.js?max_age=31536000","m":"3842cb6"},"js/v4/headline/notes.js.bak":{"url":"/music/portal/js/v4/headline/notes.js.bak?max_age=31536000"},"js/v4/headline/util.js":{"deps":["js/common/music.js","js/v4/public/util.js"],"url":"//y.gtimg.cn/music/portal/js/v4/headline/util_674b623.js?max_age=31536000","m":"674b623"},"js/v4/headline/util.js.bak":{"url":"/music/portal/js/v4/headline/util.js.bak?max_age=31536000"},"js/v4/index.js":{"deps":["js/common/music.js"],"url":"//y.gtimg.cn/music/portal/js/v4/index_67461cd.js?max_age=31536000","m":"67461cd"},"js/v4/index.js.bak":{"url":"/music/portal/js/v4/index.js.bak?max_age=31536000"},"js/v4/index_v2.js":{"deps":["js/common/music.js","js/common/indexDB.js"],"url":"//y.gtimg.cn/music/portal/js/v4/index_v2_b405b8f.js?max_age=31536000","m":"b405b8f"},"js/v4/index_v2.js.bak":{"url":"/music/portal/js/v4/index_v2.js.bak?max_age=31536000"},"js/v4/lyric_upload.js":{"deps":["js/common/music.js","js/common/module/coder.js"],"url":"//y.gtimg.cn/music/portal/js/v4/lyric_upload_9d60c49.js?max_age=31536000","m":"9d60c49"},"js/v4/lyric_upload.js.bak":{"url":"/music/portal/js/v4/lyric_upload.js.bak?max_age=31536000"},"js/v4/mv.js":{"deps":["js/common/music.js"],"url":"//y.gtimg.cn/music/portal/js/v4/mv_967da09.js?max_age=31536000","m":"967da09"},"js/v4/mv.js.bak":{"url":"/music/portal/js/v4/mv.js.bak?max_age=31536000"},"js/v4/mvToplist.js":{"deps":["js/common/music.js"],"url":"//y.gtimg.cn/music/portal/js/v4/mvToplist_eccad26.js?max_age=31536000","m":"eccad26"},"js/v4/mv_lib.js":{"deps":["js/common/music.js"],"url":"//y.gtimg.cn/music/portal/js/v4/mv_lib_a015d07.js?max_age=31536000","m":"a015d07"},"js/v4/mv_lib.js.bak":{"url":"/music/portal/js/v4/mv_lib.js.bak?max_age=31536000"},"js/v4/mv_upload.js":{"deps":["js/common/music.js","js/v4/public/util.js"],"url":"//y.gtimg.cn/music/portal/js/v4/mv_upload_f46587e.js?max_age=31536000","m":"f46587e"},"js/v4/mv_upload.js.bak":{"url":"/music/portal/js/v4/mv_upload.js.bak?max_age=31536000"},"js/v4/mymusic.js":{"deps":["js/common/music.js"],"url":"//y.gtimg.cn/music/portal/js/v4/mymusic_5dba8ed.js?max_age=31536000","m":"5dba8ed"},"js/v4/mymusic.js.bak":{"url":"/music/portal/js/v4/mymusic.js.bak?max_age=31536000"},"js/v4/mymusic_edit.js":{"deps":["js/common/music.js"],"url":"//y.gtimg.cn/music/portal/js/v4/mymusic_edit_ddd8972.js?max_age=31536000","m":"ddd8972"},"js/v4/mymusic_edit.js.bak":{"url":"/music/portal/js/v4/mymusic_edit.js.bak?max_age=31536000"},"js/v4/mymusic_friend - 2.js":{"url":"//y.gtimg.cn/music/portal/js/v4/mymusic_friend - 2_f6eb572.js?max_age=31536000","m":"f6eb572"},"js/v4/mymusic_friend.js":{"deps":["js/common/music.js"],"url":"//y.gtimg.cn/music/portal/js/v4/mymusic_friend_948ea45.js?max_age=31536000","m":"948ea45"},"js/v4/mymusic_friend.js.bak":{"url":"/music/portal/js/v4/mymusic_friend.js.bak?max_age=31536000"},"js/v4/player.js":{"deps":["js/common/music.js","js/common/music/scroller.js","js/common/module/webplayer.js","js/common/module/lrcHandler.js","js/common/module/qrcHandler.js","js/common/music/storage.js"],"url":"//y.gtimg.cn/music/portal/js/v4/player_7ae5817.js?max_age=31536000","m":"7ae5817"},"js/v4/player.js.bak":{"url":"/music/portal/js/v4/player.js.bak?max_age=31536000"},"js/v4/player/radio.js":{"deps":["js/common/music.js","js/common/music/scroller.js","js/common/module/webplayer.js","js/common/module/lrcHandler.js","js/common/music/storage.js"],"url":"//y.gtimg.cn/music/portal/js/v4/player/radio_ad452f6.js?max_age=31536000","m":"ad452f6"},"js/v4/player/radio.js.bak":{"url":"/music/portal/js/v4/player/radio.js.bak?max_age=31536000"},"js/v4/playlist.js":{"deps":["js/common/music.js","js/common/indexDB.js"],"url":"//y.gtimg.cn/music/portal/js/v4/playlist_14e5ac9.js?max_age=31536000","m":"14e5ac9"},"js/v4/playlist.js.bak":{"url":"/music/portal/js/v4/playlist.js.bak?max_age=31536000"},"js/v4/playlist_detail.js":{"deps":["js/common/music.js"],"url":"//y.gtimg.cn/music/portal/js/v4/playlist_detail_1f80b38.js?max_age=31536000","m":"1f80b38"},"js/v4/playlist_detail.js.bak":{"url":"/music/portal/js/v4/playlist_detail.js.bak?max_age=31536000"},"js/v4/profile.js":{"deps":["js/common/music.js","js/common/music/storage.js"],"url":"//y.gtimg.cn/music/portal/js/v4/profile_ead14a7.js?max_age=31536000","m":"ead14a7"},"js/v4/profile.js.bak":{"url":"/music/portal/js/v4/profile.js.bak?max_age=31536000"},"js/v4/public/mini_video_upload.js":{"deps":["js/common/music.js","js/v4/public/util.js"],"url":"//y.gtimg.cn/music/portal/js/v4/public/mini_video_upload_cbd4ee2.js?max_age=31536000","m":"cbd4ee2"},"js/v4/public/mini_video_upload.js.bak":{"url":"/music/portal/js/v4/public/mini_video_upload.js.bak?max_age=31536000"},"js/v4/public/noright.js":{"deps":["js/common/music.js","js/v4/public/util.js"],"url":"//y.gtimg.cn/music/portal/js/v4/public/noright_aac2fcb.js?max_age=31536000","m":"aac2fcb"},"js/v4/public/noright.js.bak":{"url":"/music/portal/js/v4/public/noright.js.bak?max_age=31536000"},"js/v4/public/renzheng_other.js":{"deps":["js/common/music.js","js/v4/public/util.js"],"url":"//y.gtimg.cn/music/portal/js/v4/public/renzheng_other_9bd28ae.js?max_age=31536000","m":"9bd28ae"},"js/v4/public/renzheng_other.js.bak":{"url":"/music/portal/js/v4/public/renzheng_other.js.bak?max_age=31536000"},"js/v4/public/renzheng_singer.js":{"deps":["js/common/music.js","js/v4/public/util.js"],"url":"//y.gtimg.cn/music/portal/js/v4/public/renzheng_singer_923d145.js?max_age=31536000","m":"923d145"},"js/v4/public/renzheng_singer.js.bak":{"url":"/music/portal/js/v4/public/renzheng_singer.js.bak?max_age=31536000"},"js/v4/public/util.js":{"deps":["js/common/music.js"],"url":"//y.gtimg.cn/music/portal/js/v4/public/util_6ef995a.js?max_age=31536000","m":"6ef995a"},"js/v4/public/util.js.bak":{"url":"/music/portal/js/v4/public/util.js.bak?max_age=31536000"},"js/v4/radio.js":{"deps":["js/common/music.js"],"url":"//y.gtimg.cn/music/portal/js/v4/radio_079b3c6.js?max_age=31536000","m":"079b3c6"},"js/v4/radio.js.bak":{"url":"/music/portal/js/v4/radio.js.bak?max_age=31536000"},"js/v4/search.js":{"deps":["js/common/music.js","js/common/music/storage.js"],"url":"//y.gtimg.cn/music/portal/js/v4/search_f04936c.js?max_age=31536000","m":"f04936c"},"js/v4/search.js.bak":{"url":"/music/portal/js/v4/search.js.bak?max_age=31536000"},"js/v4/singer.js":{"deps":["js/common/music.js","js/common/music/lib/base.js"],"url":"//y.gtimg.cn/music/portal/js/v4/singer_0e77529.js?max_age=31536000","m":"0e77529"},"js/v4/singer.js.bak":{"url":"/music/portal/js/v4/singer.js.bak?max_age=31536000"},"js/v4/singerlist.js":{"deps":["js/common/music.js"],"url":"//y.gtimg.cn/music/portal/js/v4/singerlist_7cba3b3.js?max_age=31536000","m":"7cba3b3"},"js/v4/singerlist.js.bak":{"url":"/music/portal/js/v4/singerlist.js.bak?max_age=31536000"},"js/v4/song_detail.js":{"deps":["js/common/music.js"],"url":"//y.gtimg.cn/music/portal/js/v4/song_detail_80d29a8.js?max_age=31536000","m":"80d29a8"},"js/v4/song_detail.js.bak":{"url":"/music/portal/js/v4/song_detail.js.bak?max_age=31536000"},"js/v4/toplist.js":{"deps":["js/common/music.js"],"url":"//y.gtimg.cn/music/portal/js/v4/toplist_b4d94d1.js?max_age=31536000","m":"b4d94d1"},"js/v4/toplist.js.bak":{"url":"/music/portal/js/v4/toplist.js.bak?max_age=31536000"}},"pkg":{}});</script>
+<script type="text/javascript"> 
+	window.onload = function () {
+		SPD.mark(35);	
+	};
+;(function () {
+	require.async("js/v4/song_detail.js", function( song_detail ){
+		SPD.mark(33);	// JS加载完毕
+		song_detail.init();
+	});
+})(); 
+</script> 
+
+</body>
+</html>
+            
+

@@ -1,4 +1,5 @@
 {
+    "x":0,
     "type":"View",
     "selectedBox":1,
     "selecteID":21,
@@ -13,6 +14,7 @@
     "compId":1,
     "child":[
         {
+            "x":15,
             "type":"Panel",
             "props":{"y":-10,"x":81,"width":320,"height":279},
             "nodeParent":1,
@@ -24,6 +26,7 @@
             "compId":19,
             "child":[
                 {
+                    "x":30,
                     "type":"Image",
                     "props":{"y":220,"x":56,"skin":"images/6.png"},
                     "nodeParent":19,
@@ -36,6 +39,7 @@
                         ]
                 },
                 {
+                    "x":30,
                     "type":"Image",
                     "props":{"y":220,"x":110,"skin":"images/7.png"},
                     "nodeParent":19,
@@ -48,6 +52,7 @@
                         ]
                 },
                 {
+                    "x":30,
                     "type":"Image",
                     "props":{"y":220,"x":161,"skin":"images/8.png"},
                     "nodeParent":19,
@@ -60,6 +65,7 @@
                         ]
                 },
                 {
+                    "x":30,
                     "type":"Image",
                     "props":{"y":220,"x":214,"skin":"images/9.png"},
                     "nodeParent":19,
@@ -73,6 +79,7 @@
                 }]
         },
         {
+            "x":15,
             "type":"Panel",
             "props":{"y":-10,"x":360,"width":250,"height":287},
             "nodeParent":1,
@@ -133,6 +140,7 @@
                 }]
         },
         {
+            "x":15,
             "type":"Panel",
             "props":{"y":302,"x":-126,"width":932,"height":165},
             "nodeParent":1,
@@ -144,6 +152,7 @@
             "compId":20,
             "child":[
                 {
+                    "x":30,
                     "type":"Image",
                     "props":{"y":5,"x":234,"skin":"images/1.png"},
                     "nodeParent":20,
@@ -157,6 +166,7 @@
                         ]
                 },
                 {
+                    "x":30,
                     "type":"Image",
                     "props":{"y":0,"x":366,"skin":"images/2.png"},
                     "nodeParent":20,
@@ -169,6 +179,7 @@
                         ]
                 },
                 {
+                    "x":30,
                     "type":"Image",
                     "props":{"y":3,"x":514,"skin":"images/3.png"},
                     "nodeParent":20,
@@ -181,6 +192,7 @@
                         ]
                 },
                 {
+                    "x":30,
                     "type":"Image",
                     "props":{"y":3,"x":605,"skin":"images/4.png"},
                     "nodeParent":20,
@@ -192,18 +204,6 @@
                     "child":[
                         ]
                 }]
-        },
-        {
-            "type":"Image",
-            "props":{"y":1132,"x":301,"width":122,"skin":"images/sdd.png","height":68,"bottom":200},
-            "nodeParent":1,
-            "label":"Image",
-            "isDirectory":false,
-            "isAniNode":true,
-            "hasChild":false,
-            "compId":21,
-            "child":[
-                ]
         }],
     "animations":[
         {
@@ -945,65 +945,6 @@
                                 "target":8,
                                 "key":"alpha",
                                 "index":30
-                            }]
-                    }
-                },
-                {
-                    "target":21,
-                    "keyframes":{
-                        "y":[
-                            {
-                                "value":1432,
-                                "tweenMethod":"linearNone",
-                                "tween":true,
-                                "target":21,
-                                "key":"y",
-                                "index":0
-                            },
-                            {
-                                "value":1432,
-                                "tweenMethod":"linearNone",
-                                "tween":true,
-                                "target":21,
-                                "label":null,
-                                "key":"y",
-                                "index":15
-                            }],
-                        "x":[
-                            {
-                                "value":301,
-                                "tweenMethod":"bounceInOut",
-                                "tween":true,
-                                "target":21,
-                                "key":"x",
-                                "index":0
-                            },
-                            {
-                                "value":301,
-                                "tweenMethod":"bounceInOut",
-                                "tween":true,
-                                "target":21,
-                                "label":null,
-                                "key":"x",
-                                "index":15
-                            }],
-                        "bottom":[
-                            {
-                                "value":-100,
-                                "tweenMethod":"backInOut",
-                                "tween":true,
-                                "target":21,
-                                "key":"bottom",
-                                "index":0
-                            },
-                            {
-                                "value":150,
-                                "tweenMethod":"backInOut",
-                                "tween":true,
-                                "target":21,
-                                "label":null,
-                                "key":"bottom",
-                                "index":15
                             }]
                     }
                 }],

@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="gb2312" />
+<meta name="applicable-device" content="pc">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta http-equiv="Cache-Control" content="no-transform" />
+<title>html中嵌入flv格式文件的代码_网页播放器_脚本之家</title>
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+<meta name="keywords" content="html,flv" />
+<meta name="description" content="在网页中(所有网页都由html组成，所以说下面的代码，可以用于任何网页，部分限制了html的网页除外" />
+<link rel="alternate" media="only screen and(max-width: 640px)" href="http://m.jb51.net/article/22916.htm" />
+<meta http-equiv="mobile-agent" content="format=html5; url=http://m.jb51.net/article/22916.htm" />
+<meta http-equiv="mobile-agent" content="format=xhtml; url=http://m.jb51.net/article/22916.htm" />
+<script type="text/javascript">
+var tougao="mdxy-dxy";var lmname="网页播放器";
+(function(){var reWriteUrl=function(url){if(url){var Splits=url.split("/"),siteName=window.location.pathname;if(typeof siteName!=="undefined"){return "http://m.jb51.net"+siteName}}};if(/Android|webOS|iPhone|iPad|Windows Phone|iPod|BlackBerry|SymbianOS|Nokia|Mobile/i.test(navigator.userAgent)){var url=window.location.href;var pathname=window.location.pathname;if(url.indexOf("?pc")<0){try{window.location.href=reWriteUrl(url)}catch(e){}}}})();
+</script>
+<link type="text/css" href="/skin/2016/base.css" rel="stylesheet" />
+<link type="text/css" href="/skin/2016/common.css" rel="stylesheet" />
+<script type="text/javascript" src="//apps.bdimg.com/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+if (!window.jQuery) {
+	var script = document.createElement('script');
+	script.src = "/skin/js/jquery.js";
+	document.body.appendChild(script);}
+</script>
+<script type=text/javascript src="/js/function.js"></script> 
+</head>
+<body>
+<!--head Star -->
+<div id="head">
+  <div class="toolBar">
+  <div class="main">
+    <!--topNav Star -->
+    <div class="topNav clearfix">
+      <ul class="navList fl">
+        <li>
+          <div class="one"><a href="http://www.jb51.net" target="_blank">脚本之家</a></div>
+        </li>
+        <li>
+          <div class="one"><a href="http://www.jb51.net/softs/" target="_blank">软件下载<i class="icon"></i></a></div>
+          <div class="two">
+<a href="/softs/android.html" target="_blank">android软件</a> <a href="/softs/mac.html" target="_blank">MAC软件</a> <a href="/qudong/" target="_blank">驱动下载</a> <a href="/fonts/" target="_blank">字体下载</a> <a href="/dll/" target="_blank">DLL下载</a> </div>
+</li>
+        <li>
+          <div class="one"><a href="/codes/" target="_blank">源码下载<i class="icon"></i></a></div>
+          <div class="two"> <a href="/codes/asp.html" target="_blank">asp源码</a> <a href="/codes/php.html" target="_blank">php源码</a> <a href="/codes/aspnet.html" target="_blank">asp.net源码</a> <a href="/codes/jsp.html" target="_blank">jsp源码</a> <a href="/codes/editor.html" target="_blank">网页编辑器</a> <a href="/codes/list123_1.html" target="_blank">数据库管理</a> <a href="/codes/list124_1.html" target="_blank">常用组件</a> <a href="/jiaoben/" target="_blank">脚本下载</a></div>
+        </li>
+        <li>
+          <div class="one"><a href="http://tools.jb51.net" target="_blank">在线工具<i class="icon"></i></a></div>
+          <div class="two"> <a href="/shouce/" target="_blank">在线手册</a> <a href="/tools/cssyasuo.shtml" target="_blank">CSS格式化</a> <a href="http://tools.jb51.net/code/js" target="_blank">JS格式化</a> <a href="/tools/html-js.htm" target="_blank">Html转化为Js</a> <a href="http://tools.jb51.net/regex/javascript" target="_blank">js正则表达式</a>
+</div>
+        </li>
+        <li>
+          <div class="one"><a href="/w3school/" target="_blank">网页教程基础</a></div>
+        </li>
+			<li>
+          <div class="one"><a href="http://s.jb51.net" target="_blank">服务器常用软件</a></div>
+        </li>
+		<li>
+          <div class="one"><a href="http://m.jb51.net" target="_blank">手机版</a></div>
+          <div class="two"><img src="http://files.jb51.net/images/m.jb51.net.png" data-baiduimageplus-ignore /></div>     
+        </li>
+        <li class="watch">
+          <div class="one"><a href="http://www.jb51.net/about.htm" target="_blank" rel="nofollow" ><i class="icon"></i>关注微信</a></div>
+          <div class="two"><img src="http://files.jb51.net/images/weixin_200.gif" data-baiduimageplus-ignore /></div>
+        </li>
+      </ul>
+      <div class="navUser mt5 fr" id="jb51_topbar" >
+
+      </div>
+    </div>
+    <!--topNav End -->
+  </div>
+</div>
+
+  <div class="main clearfix">
+    <div class="mtb10 clearfix">
+      <div class="logo"><a href="http://www.jb51.net/"><img src="http://www.jb51.net/images/logo.gif" title="脚本之家" alt="脚本之家" /></a></div>
+      <div class="logom fl"><span id="logo_m" class="jbTestPos"></span></div>
+      <div class="logor fr"><span id="logo_r" class="jbTestPos"></span></div>
+    </div>
+<!-- 导航-->
+<DIV class="nav_top clearfix">
+<UL>
+<li><a href="http://www.jb51.net/web/">网页制作</a></li>
+<li><a href="http://www.jb51.net/list/index_1.htm">网络编程</a></li>
+<li><a href="http://www.jb51.net/list/index_96.htm">脚本专栏</a></li>
+<li><a href="http://www.jb51.net/jiaoben/">脚本下载</a></li>
+<li><a href="http://www.jb51.net/list/index_104.htm">数据库</a></li>
+<li><a href="http://www.jb51.net/cms/">CMS教程</a></li>
+<li><a href="http://www.jb51.net/books/">电子书籍</a></li>
+<li><a href="http://www.jb51.net/pingmian/">平面设计</a></li>
+<li><a href="http://www.jb51.net/media/">媒体动画</a></li>
+<li><a href="http://www.jb51.net/os/">操作系统</a></li>
+<li><a href="http://www.jb51.net/yunying/">网站运营</a></li>
+<li><a href="http://www.jb51.net/hack/">网络安全</a></li>
+<li class="last"><a href="http://www.jb51.net/shouce/">在线手册</a></li>
+
+</UL>
+</DIV>
+
+<!--导航结束-->
+<div class="subnav clearfix">
+<ul><li><a href='/list/list_3_1.htm' title="JavaScript">JavaScript</a></li>
+<li><a href='/list/list_21_1.htm' title="ASP.NET">ASP.NET</a></li>
+<li><a href='/list/list_15_1.htm' title="PHP编程">PHP编程</a></li>
+<li><a href='/list/list_5_1.htm' title="AJAX相关">AJAX相关</a></li>
+<li><a href='/list/list_6_1.htm' title="正则表达式">正则表达式</a></li>
+<li><a href='/list/list_2_1.htm' title="ASP编程">ASP编程</a></li>
+<li><a href='/list/list_83_1.htm' title="JSP编程">JSP编程</a></li>
+<li><a href='/list/list_123_1.htm' title="编程10000问">编程10000问</a></li>
+<li><a href='/list/list_4_1.htm' title="CSS/HTML">CSS/HTML</a></li>
+<li><a href='/list/list_237_1.htm' title="Flex">Flex</a></li>
+<li><a href='/list/list_60_1.htm' title="脚本加解密">脚本加解密</a></li>
+<li><a href='/list/list_62_1.htm' title="web2.0">web2.0</a></li>
+<li><a href='/list/list_64_1.htm' title="XML/RSS">XML/RSS</a></li>
+<li><a href='/list/list_176_1.htm' title="网页编辑器">网页编辑器</a></li>
+<li><a href='/list/list_177_1.htm' title="相关技巧">相关技巧</a></li>
+<li><a href='/list/list_72_1.htm' title="安全相关">安全相关</a></li>
+<li><a href='/list/list_19_1.htm' title="网页播放器">网页播放器</a></li>
+<li><a href='/list/list_185_1.htm' title="其它综合">其它综合</a></li>
+<li><a href='/list/list_251_1.htm' title="Dart">Dart</a></li>
+</ul>
+</div>
+<div class="NavBar clearfix ptb10">
+<div class="fl w690">
+<div class="box mb15 mt10"><i class="icon"></i>您的位置：<a href='/'>首页</a> → <a href="/list/index_1.htm" title="网络编程">网络编程</a> → <a href="/list/list_19_1.htm" title="网页播放器">网页播放器</a> → 正文内容 html中嵌入flv</div>
+</div>
+<div class="fr w300"><div class="search">
+<form action="http://so.jb51.net/cse/search" target="_blank">
+    <input type="hidden" name="s" value="10520733385329581432">
+    <input type="hidden" name="ie" value="gbk">
+    <input type="text" name="q" class="key_input" placeholder="请输入关键词">
+    <input type="submit" value="搜索" class="c_btn">
+</form></div></div>
+  </div>
+</div>
+<!--head End -->
+<div class="main mb10 clearfix">
+<div class="clearfix"><span id="tonglan1" class="jbTestPos"></span></div>
+</div>
+
+<!--content Star -->
+<div id="contents">
+ <div class="main clearfix">
+      <div class="w690 fl">
+      <div class="article-content border">
+      <div class="title">
+            <h1 class="YaHei">html中嵌入flv格式文件的代码</h1>
+            <p>作者：  字体：[<a href="javascript:turnbig()">增加</a> <a href="javascript:turnsmall()">减小</a>] 类型：转载 时间：2010-04-06<a href="#comments"> 我要评论</a></p>
+        </div>
+        <div class="art_desc mt10"><div id="art_demo">在网页中(所有网页都由html组成，所以说下面的代码，可以用于任何网页，部分限制了html的网页除外</div></div>
+        <div class="lbd clearfix"><span id="art_up" class="jbTestPos"></span></div>
+        <div id="content">
+<P><div class="codetitle"><span><a style="CURSOR: pointer" data="31367" class="copybut" id="copybut31367" onclick="doCopy('code31367')"><U>复制代码</U></a></span> 代码如下:</div><div class="codebody" id="code31367"> <BR>&lt;object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" <BR>codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" height="120" width="190"&gt; <BR>&lt;param name="movie" <BR>value="http://www.jb51.net/player/vcastr22.swf?vcastr_file=http://img.jb51.net/upload/3/2007/12/20071225195508397.flv"&gt; <BR>&lt;param name="quality" value="high"&gt; <BR>&lt;param name="allowFullScreen" value="true" /&gt; <BR>&lt;embed <BR>src="http://www.jb51.net/player/vcastr22.swf?vcastr_file=http://img.jb51.net/upload/3/2007/12/20071225195508397.flv" <BR>quality="high" <BR>pluginspage="http://www.macromedia.com/go/getflashplayer" <BR>type="application/x-shockwave-flash" width="320" height="240"&gt; <BR>&lt;/embed&gt; <BR>&lt;/object&gt; <BR></div> <br><br>代码意思就不用我说了吗？Windth宽，height高，“视频地址”换成你自己的视频地址。 <BR>vcastr22.swf是播放flv文件的播放器。下载地址 <A href="http://xiazai.jb51.net/201004/other/vcastr22.rar">http://xiazai.jb51.net/201004/other/vcastr22.rar</A><br><br>这里推荐使用 <A href="http://www.jb51.net/jiaoben/25641.html" target=_blank>极酷Flvplayer网页播放器(flv播放器)</A> 非常不错，大家可以下载后看演示。</P>
+
+</div><!--endmain-->
+<div class="art_xg">
+<h4>您可能感兴趣的文章:</h4><ul><li><a href="/article/21413.htm" title="网上比较常用的嵌入网页中的播放器代码收藏" target="_blank">网上比较常用的嵌入网页中的播放器代码收藏</a></li><li><a href="/article/24207.htm" title="页面嵌入Windows Media Player播放器代码需要注意的" target="_blank">页面嵌入Windows Media Player播放器代码需要注意的</a></li><li><a href="/article/37267.htm" title="(jsp/html)网页上嵌入播放器(常用播放器代码整理)" target="_blank">(jsp/html)网页上嵌入播放器(常用播放器代码整理)</a></li><li><a href="/article/40621.htm" title="在Flex(Flash)中嵌入HTML代码或页面(Flex IFrame)" target="_blank">在Flex(Flash)中嵌入HTML代码或页面(Flex IFrame)</a></li><li><a href="/article/59165.htm" title="JavaScript实现防止网页被嵌入Frame框架的代码分享" target="_blank">JavaScript实现防止网页被嵌入Frame框架的代码分享</a></li><li><a href="/article/65997.htm" title="如何在HTML 中嵌入 PHP 代码" target="_blank">如何在HTML 中嵌入 PHP 代码</a></li><li><a href="/article/71426.htm" title="如何屏蔽防止别的网站嵌入框架代码" target="_blank">如何屏蔽防止别的网站嵌入框架代码</a></li></ul>
+</div>
+<div class="lbd clearfix">
+<span id="art_down" class="jbTestPos"></span>
+</div>
+<div id="shoucang"></div>
+<div class="tags mt10">
+<strong>Tags：</strong><a href="http://common.jb51.net/tag/html/1.htm" target="_blank" title="搜索关于html的文章">html</a> <a href="http://common.jb51.net/tag/flv/1.htm" target="_blank" title="搜索关于flv的文章">flv</a> 
+</div>
+<DIV class="relatedarticle clearfix mt5">
+<H2>相关文章</H2>
+<ul><li><span>2006-07-07</span><a href="/article/303.htm" title="网页视频播放器程序代码（通用代码）" target="_blank">网页视频播放器程序代码（通用代码）</a></li><li><span>2007-08-08</span><a href="/article/11076.htm" title="1ting的歌词同步，所用到的代码" target="_blank">1ting的歌词同步，所用到的代码</a></li><li><span>2006-12-12</span><a href="/article/5333.htm" title="图片自动播放器脚本之家修正" target="_blank">图片自动播放器脚本之家修正</a></li><li><span>2006-07-07</span><a href="/article/418.htm" title="在线播放器代码大全" target="_blank">在线播放器代码大全</a></li><li><span>2006-07-07</span><a href="/article/308.htm" title="通用网页播放器" target="_blank">通用网页播放器</a></li><li><span>2010-04-04</span><a href="/article/22914.htm" title="html中插入rm格式视频文件的代码" target="_blank">html中插入rm格式视频文件的代码</a></li><li><span>2008-09-09</span><a href="/article/15727.htm" title="宝丽通3.90播放器调用代码" target="_blank">宝丽通3.90播放器调用代码</a></li><li><span>2006-10-10</span><a href="/article/1405.htm" title="ASP电影播放器" target="_blank">ASP电影播放器</a></li><li><span>2007-08-08</span><a href="/article/11075.htm" title="非常全的javascript控制MediaPlayer的属性集合" target="_blank">非常全的javascript控制MediaPlayer的属性集合</a></li><li><span>2007-11-11</span><a href="/article/12959.htm" title="[翻译] JW Media Player 中文文档" target="_blank">[翻译] JW Media Player 中文文档</a></li></ul>
+</DIV>
+<div class="lbd clearfix mt5">
+<span id="art_down2" class="jbTestPos"></span>
+</div>
+<a href="#comments"></a>
+<div id="comments">
+<H2>最新评论</H2>
+<div class="pd5"><div id="SOHUCS" sid="art_22916"></div></div>
+</div>
+      </div><!--endborder-->
+      </div><!--end fl-->
+      
+<div class="w300 fr">
+<div class="r300 clearfix"><span id="side_up" class="jbTestPos"></span></div>
+<DIV class="tabTitleBar mt10 bgf borderTblue">
+<DIV class="borderTnone pb10 YaHei">
+<H4 class="blue">大家感兴趣的内容</H4>
+<UL class="newsList newList-in">
+<li><EM class="no1">1</EM><a href="/article/22916.htm" title="html中嵌入flv格式文件的代码" target="_blank">html中嵌入flv格式文件的代码</a></li><li><EM class="no2">2</EM><a href="/article/26290.htm" title="flvplayer.swf flv视频播放器使用方法" target="_blank">flvplayer.swf flv视频播放器使用</a></li><li><EM class="no3">3</EM><a href="/article/48631.htm" title="网页在线视频播放代码大全" target="_blank">网页在线视频播放代码大全</a></li><li><EM class="no4">4</EM><a href="/article/14107.htm" title="在线FLV播放器实现方法" target="_blank">在线FLV播放器实现方法</a></li><li><EM class="no5">5</EM><a href="/article/22915.htm" title="html中插入avi格式视频文件的代码" target="_blank">html中插入avi格式视频文件的代码</a></li><li><EM class="no6">6</EM><a href="/article/21413.htm" title="网上比较常用的嵌入网页中的播放器代码收藏" target="_blank">网上比较常用的嵌入网页中的播放</a></li><li><EM class="no7">7</EM><a href="/article/303.htm" title="网页视频播放器程序代码（通用代码）" target="_blank">网页视频播放器程序代码（通用代</a></li><li><EM class="no8">8</EM><a href="/article/22913.htm" title="html中插入wmv格式视频文件的代码" target="_blank">html中插入wmv格式视频文件的代码</a></li><li><EM class="no9">9</EM><a href="/article/22611.htm" title="网页播放器Object使用详解" target="_blank">网页播放器Object使用详解</a></li><li><EM class="no10">10</EM><a href="/article/16642.htm" title="asp 网页视频播放器程序代码(通用代码),支持avi,wmv,asf,mov,rm,ra,ram等" target="_blank">asp 网页视频播放器程序代码(通用</a></li>
+</UL>
+</DIV>
+</DIV>
+<div class="r300 clearfix mt10"><span id="idctu" class="jbTestPos"></span></div>
+<DIV class="tabTitleBar mt10 bgf borderTblue">
+<DIV class="borderTnone pb10 YaHei">
+<H4 class="blue">最近更新的内容</H4>
+<UL class="newsListA">
+<ul><li><a href="/article/22912.htm" title="在html中插入mpg格式视频文件的代码" target="_blank">在html中插入mpg格式视频文件的代码</a></li><li><a href="/article/6676.htm" title="利用JAVASCRIPT控制MEDIA PLAYER的功能实现" target="_blank">利用JAVASCRIPT控制MEDIA PLAYER的功能实</a></li><li><a href="/article/15727.htm" title="宝丽通3.90播放器调用代码" target="_blank">宝丽通3.90播放器调用代码</a></li><li><a href="/article/22916.htm" title="html中嵌入flv格式文件的代码" target="_blank">html中嵌入flv格式文件的代码</a></li><li><a href="/article/375.htm" title="通用媒体播放器（5.5更新）" target="_blank">通用媒体播放器（5.5更新）</a></li><li><a href="/article/449.htm" title="符合web标准的媒体播放器代码" target="_blank">符合web标准的媒体播放器代码</a></li><li><a href="/article/15151.htm" title="flv播放器 在网页中播放flv" target="_blank">flv播放器 在网页中播放flv</a></li><li><a href="/article/22914.htm" title="html中插入rm格式视频文件的代码" target="_blank">html中插入rm格式视频文件的代码</a></li><li><a href="/article/26290.htm" title="flvplayer.swf flv视频播放器使用方法" target="_blank">flvplayer.swf flv视频播放器使用方法</a></li><li><a href="/article/4346.htm" title="Window Media Player 播放器" target="_blank">Window Media Player 播放器</a></li></ul>
+</UL>
+</DIV>
+</DIV>   
+<div class="r300 clearfix mt10"><span id="idctu1" class="jbTestPos"></span></div>
+<DIV class="tabTitleBar mt10 bgf borderTblue">
+<DIV class="borderTnone pb10 YaHei">
+<H4 class="blue">常用在线小工具</H4>
+<ul class="newsListA"><span id="bctools" class="jbTestPos"></span></ul>
+</DIV>
+</DIV>
+<div class="r300 clearfix mt10" id="idctu2"><span id="idctu2" class="jbTestPos"></span></div>
+<div class="mt10 rFixedBox">
+<span id="r_2" class="jbTestPos"></span>
+</div>
+      
+      
+      </div><!--end fr-->
+      </div>
+</div><!--end content-->
+<div id="footer">
+<div class="main clearfix">
+<p>
+<a href="http://www.jb51.net/about.htm" target="_blank">关于我们</a> - 
+<a href="http://www.jb51.net/support.htm" target="_blank">广告合作</a> - 
+<a href="http://www.jb51.net/linkus.htm" target="_blank">联系我们</a> -  
+<a href="http://www.jb51.net/sm.htm" target="_blank">免责声明</a> -  
+<a href="http://www.jb51.net/sitemap.htm" target="_blank">网站地图</a> - 
+<a href="tencent://message/?uin=461478385&Site=http://www.jb51.net" target="_blank">投诉建议</a> - 
+<a href="http://www.jb51.net/up.htm" target="_blank">在线投稿</a>
+</p>
+<p>&copy;CopyRight 2006-2017 JB51.Net Inc All Rights Reserved. 脚本之家 版权所有</p>
+</div>
+</div><!--end footer-->
+<link type="text/css" rel="stylesheet" href="/jslib/syntaxhighlighter/styles/shCore.css" />
+<link type="text/css" rel="Stylesheet" href="/jslib/syntaxhighlighter/styles/shThemeDefault.css" />
+<script type="text/javascript" src="/jslib/syntaxhighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/jslib/syntaxhighlighter/scripts/shAutoloader.js"></script>
+<script type="text/javascript">
+(function(){
+    var bp = document.createElement('script');
+    bp.src = '//push.zhanzhang.baidu.com/push.js';
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+if (top.location != self.location)top.location=self.location;
+$(function(){
+	$('#content').find('img').each(function(){
+        var img = this;
+        if (img.width >= 650){
+            img.style.width = "650px";
+            img.style.height = "auto";
+            //$(img).removeAttr('height');
+            var aTag = document.createElement('a');
+            aTag.href = img.src;
+			aTag.target="_blank";
+            $(aTag).addClass('bPic')
+            .insertAfter(img).append(img)
+          }
+    });
+	$(window).scroll(function()
+    {	
+    	//rFixedBox跟随滚动
+    	var h = $(window).height();
+        var top = $(window).scrollTop();
+    	var rFixedBox = $('.rFixedBox').prev().offset();
+        var fixedTop = rFixedBox.top;
+		
+        if(top>=fixedTop+344)
+        {
+			var h1 = parseInt($('#content').children('.main').height());
+			if(parseInt(top) + 340 < h1){
+				$('.rFixedBox').css({'position':'fixed','top': 0});
+			}else{
+				$('.rFixedBox').css({'position':'absolute','top': h1-510});
+			}
+        }
+        else
+        {
+            $('.rFixedBox').css({'position':'static', 'top':0});   
+        }	
+       /* return true;*/
+    });
+/*$(document).ready(function() {
+  $("#content img").unveil();
+});	*/
+SyntaxHighlighter.autoloader(
+	'applescript			/jslib/syntaxhighlighter/scripts/shBrushAppleScript.js',
+	'actionscript3 as3		/jslib/syntaxhighlighter/scripts/shBrushAS3.js',
+	'bash shell				/jslib/syntaxhighlighter/scripts/shBrushBash.js',
+	'coldfusion cf			/jslib/syntaxhighlighter/scripts/shBrushColdFusion.js',
+	'cpp c					/jslib/syntaxhighlighter/scripts/shBrushCpp.js',
+	'obj-c objc				/jslib/syntaxhighlighter/scripts/shBrushObjC.js',
+	'c# c-sharp csharp		/jslib/syntaxhighlighter/scripts/shBrushCSharp.js',
+	'css					/jslib/syntaxhighlighter/scripts/shBrushCss.js',
+	'delphi pascal			/jslib/syntaxhighlighter/scripts/shBrushDelphi.js',
+	'diff patch pas			/jslib/syntaxhighlighter/scripts/shBrushDiff.js',
+	'erl erlang				/jslib/syntaxhighlighter/scripts/shBrushErlang.js',
+	'groovy					/jslib/syntaxhighlighter/scripts/shBrushGroovy.js',
+	'haxe hx				/jslib/syntaxhighlighter/scripts/shBrushHaxe.js',
+	'java					/jslib/syntaxhighlighter/scripts/shBrushJava.js',
+	'jfx javafx				/jslib/syntaxhighlighter/scripts/shBrushJavaFX.js',
+	'js jscript javascript	/jslib/syntaxhighlighter/scripts/shBrushJScript.js',
+	'perl pl				/jslib/syntaxhighlighter/scripts/shBrushPerl.js',
+	'php					/jslib/syntaxhighlighter/scripts/shBrushPhp.js',
+	'text plain				/jslib/syntaxhighlighter/scripts/shBrushPlain.js',
+	'py python				/jslib/syntaxhighlighter/scripts/shBrushPython.js',
+	'ruby rails ror rb		/jslib/syntaxhighlighter/scripts/shBrushRuby.js',
+	'scala					/jslib/syntaxhighlighter/scripts/shBrushScala.js',
+	'sql					/jslib/syntaxhighlighter/scripts/shBrushSql.js',
+	'vb vbnet				/jslib/syntaxhighlighter/scripts/shBrushVb.js',
+	'ps powershell			/jslib/syntaxhighlighter/scripts/shBrushPowerShell.js',
+	'xml xhtml xslt html	/jslib/syntaxhighlighter/scripts/shBrushXml.js'
+);
+SyntaxHighlighter.all();
+});
+var ourl="";
+</script>
+<script type="text/javascript" src='http://icws.jb51.net/good/arct.js'></script>
+<script>jbLoader();</script><script class="closetag">jbLoader(true);</script>
+<script>jbLoader();</script><script class="closetag">jbLoader(true);</script>
+<script>jbLoader();</script><script class="closetag">jbLoader(true);</script>
+<script>jbLoader();</script><script class="closetag">jbLoader(true);</script>
+<script>jbLoader();</script><script class="closetag">jbLoader(true);</script>
+<script>jbLoader();</script><script class="closetag">jbLoader(true);</script>
+<script>jbLoader();</script><script class="closetag">jbLoader(true);</script>
+<script>jbLoader();</script><script class="closetag">jbLoader(true);</script>
+<script>jbLoader();</script><script class="closetag">jbLoader(true);</script>
+<script>jbLoader();</script><script class="closetag">jbLoader(true);</script>
+<script>jbLoader();</script><script class="closetag">jbLoader(true);</script>
+<script>jbLoader();</script><script class="closetag">jbLoader(true);</script>
+<script>jbLoader();</script><script class="closetag">jbLoader(true);</script>
+<div id="tongji">
+<script type="text/javascript" src="http://tongji.jbzj.com/tongji/tongji.js"></script>
+<script type="text/javascript">
+//tu+
+var cpro_id = "u1893014";
+document.write('<scri'+'pt src="http://cpro.baidustatic.com/cpro/ui/i.js" type="text/javascript"></s'+'cript>');
+</script>
+<script charset="utf-8" type="text/javascript" src="http://changyan.sohu.com/upload/changyan.js" ></script>
+<script type="text/javascript">
+window.changyan.api.config({
+appid: 'cyrHH3dwi',
+conf: 'prod_1dc5dc80970106099d43fe242b7465fc'
+});
+</script>
+</div> 
+<script type="text/javascript" src="http://www.jb51.net/pl.asp?id=22916"></script>
+</body>
+</html>
+<!-- published at 2017/12/15 8:40:32By dxycms qq:461478385  -->

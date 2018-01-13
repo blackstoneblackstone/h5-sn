@@ -85,6 +85,26 @@
 			left: 0;
 			z-index: -1;
 		}
+		.code{
+			position: absolute;
+			z-index: 10;
+			bottom:50px;
+			width: 50px;
+			height: 50px;
+			left: 50%;
+			margin-left: -25px;
+			display: none;
+		}
+		.pc{
+		  position:absolute;
+		  bottom:0;
+		  height:300px;
+		  z-index:100;
+			width:100%;
+			left: 0;
+			opacity: 0.01;
+			display: none;
+		}
 	</style>
 </head>
 
@@ -104,7 +124,12 @@
 		<div class="top"></div>
 		<video src="mp4/mov.mp4" preload="auto" id="mov"></video>
 	</div>
-	<audio src="mp4/music.mp3" preload="auto" id="music">
+	<img src="images/p1.jpg" class="pc" id="pc1">
+	<img src="images/p2.jpg" class="pc" id="pc2">
+	<img src="images/p3.jpg" class="pc" id="pc3">
+	<img src="images/p4.jpg" class="pc" id="pc4">
+	<img src="images/p5.jpg" class="pc" id="pc5">
+	<audio src="mp4/music.mp3" preload="auto" id="music" loop="loop">
 		<!--核心包，封装了显示对象渲染，事件，时间管理，时间轴动画，缓动，消息交互,socket，本地存储，鼠标触摸，声音，加载，颜色滤镜，位图字体等-->
 		<script type="text/javascript" src="libs/min/laya.core.min.js"></script>
 		<!--是动画模块，包含了swf动画，骨骼动画等-->
