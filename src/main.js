@@ -7,31 +7,11 @@ Laya.stage.frameRate = Laya.Stage.FRAME_MOUSE
 Laya.stage.scaleMode = Laya.Stage.SCALE_FIXED_WIDTH
 var skeleton;
 var musicPlay = document.getElementById("music");
-document.getElementById("load").addEventListener("click",function(){
+document.getElementById("load").addEventListener("click", function () {
   musicPlay.play()
 });
-Laya.loader.load([{ url: "res/atlas/images.atlas" }, { url: "res/atlas/f1.atlas" }, { url: "res/atlas/f2.atlas" }, { url: "res/atlas/f3.atlas" }, { url: "res/atlas/f4.atlas" }, { url: "res/atlas/f5.atlas" }],
-  Laya.Handler.create(this, onLoaded),null, Laya.Loader.ATLAS);
-var p1p = 0, p2p = 0, p3p = 0, p4p = 0, p5p = 0, p6p = 0
-Laya.loader.load("res/atlas/images.atlas", null, Laya.Handler.create(this, function (e) {
-  p1p = Math.ceil(e * 100) * 0.2
-  document.getElementById("ln").style.width = p1p + p2p + p3p + p4p + p5p + p6p + "%"
-}))
-Laya.loader.load("res/atlas/f1.atlas", null, Laya.Handler.create(this, function (e) {
-  p2p = Math.ceil(e * 100) * 0.2
-  document.getElementById("ln").style.width = p1p + p2p + p3p + p4p + p5p + p6p + "%"
-}))
-Laya.loader.load("res/atlas/f2.atlas", null, Laya.Handler.create(this, function (e) {
-  p3p = Math.ceil(e * 100) * 0.2
-  document.getElementById("ln").style.width = p1p + p2p + p3p + p4p + p5p + p6p + "%"
-}))
-Laya.loader.load("res/atlas/f3.atlas", null, Laya.Handler.create(this, function (e) {
-  p4p = Math.ceil(e * 100) * 0.2
-  document.getElementById("ln").style.width = p1p + p2p + p3p + p4p + p5p + p6p + "%"
-}))
-Laya.loader.load("res/atlas/f4.atlas", null, Laya.Handler.create(this, function (e) {
-  p5p = Math.ceil(e * 100) * 0.2
-  document.getElementById("ln").style.width = p1p + p2p + p3p + p4p + p5p + p6p + "%"
+Laya.loader.load("res/atlas/images.atlas", Laya.Handler.create(this, onLoaded), Laya.Handler.create(this, function (e) {
+  document.getElementById("ln").style.width = Math.ceil(e * 100) + "%"
 }))
 var mov;
 var music;
@@ -109,8 +89,12 @@ function musicShow() {
   })
   Laya.stage.addChildAt(music, 1);
 }
+
 function p2() {
-  for(var i=0;i<5;i++){     document.getElementsByClassName("pc")[i].style.display="none"       }
+  for (var i = 0; i < 5; i++) {
+    document.getElementsByClassName("pc")[i].src = document.getElementsByClassName("pc")[i].dataset.src
+    document.getElementsByClassName("pc")[i].style.display = "none"
+  }
   playing = true
   musicShow()
   mov.pause()
@@ -192,7 +176,7 @@ function hideP2toP3() {
   }
   setTimeout(function () {
     Laya.stage.removeChildren(1)
-    Laya.loader.load("res/atlas/f1.atlas", Laya.Handler.create(this, p3), null)
+    p3()
   }, 1000);
 }
 function hideP2toP4() {
@@ -201,7 +185,7 @@ function hideP2toP4() {
   }
   setTimeout(function () {
     Laya.stage.removeChildren(1)
-    Laya.loader.load("res/atlas/f2.atlas", Laya.Handler.create(this, p4), null)
+    p4()
   }, 1000);
 }
 
@@ -211,7 +195,7 @@ function hideP2toP5() {
   }
   setTimeout(function () {
     Laya.stage.removeChildren(1)
-    Laya.loader.load("res/atlas/f3.atlas", Laya.Handler.create(this, p5), null)
+    p5()
   }, 1000);
 }
 
@@ -221,7 +205,7 @@ function hideP2toP6() {
   }
   setTimeout(function () {
     Laya.stage.removeChildren(1)
-    Laya.loader.load("res/atlas/f4.atlas", Laya.Handler.create(this, p6), null)
+    p6()
   }, 1000);
 }
 function hideP2toP7() {
@@ -230,194 +214,157 @@ function hideP2toP7() {
   }
   setTimeout(function () {
     Laya.stage.removeChildren(1)
-    Laya.loader.load("res/atlas/f5.atlas", Laya.Handler.create(this, p7), null)
+    p7()
   }, 1000);
 }
 function p3() {
-   for(var i=0;i<5;i++){     document.getElementsByClassName("pc")[i].style.display="none"       }
-  document.getElementById("pc1").style.display="block"
+  for (var i = 0; i < 5; i++) { document.getElementsByClassName("pc")[i].style.display = "none" }
+  document.getElementById("pc1").style.display = "block"
   musicShow()
   var p3 = new page3UI()
-  var ani = new Laya.Animation();
-  ani.loadAtlas("res/atlas/f5.atlas"); // 加载图集动画
-  ani.interval = 50;			// 设置播放间隔（单位：毫秒）
-  ani.play(0, false); 				// 播放图集动画
-
   p3.bot.y = Laya.stage.height - 130
-  // 获取动画的边界信息
-  var bounds = ani.getGraphicBounds();
-  ani.pivot(bounds.width / 2, bounds.height / 2);
-  ani.pos(Laya.stage.width / 2, Laya.stage.height / 2 + 50);
-  ani.scaleX = 1.8
-  ani.scaleY = 1.8
-  ani.zOrder = 1
-  Laya.stage.addChildAt(ani, 1);
-  Laya.Tween.to(ani, {scaleX: 1.5, scaleY: 1.4,y:500}, 500, Laya.Ease.linearIn, null, 2000)
-  ani.on(Laya.Event.COMPLETE, this, function (e) {
-    Laya.stage.addChildAt(p3, 1);
-    p3.zOrder = 2
-    p3.show.play(1, false)
-    p3.topNum.on(Laya.Event.CLICK, this, function (e) {
-      Laya.Tween.from(p3, { alpha: 0 }, 500, Laya.Ease.linearIn, Laya.Handler.create(function () {
-      }), 0)
-      Laya.stage.removeChildren(1);
-      p2()
-    })
-    setInterval(function () {
-      for (var i = 0; i < 4; i++) {
-        Laya.Tween.from(p3.topNum.getChildAt(i), { alpha: 0, y: -30 }, 500, Laya.Ease.linearIn, null, 200 * i)
-      }
-    }, 3000);
+  Laya.stage.addChildAt(p3, 1);
+  p3.zOrder = 2
+  p3.show.play(1, false)
+  p3.on(Laya.Event.CLICK, this, function (e) {
+    Laya.Tween.from(p3, { alpha: 0 }, 500, Laya.Ease.linearIn, Laya.Handler.create(function () {
+    }), 0)
+    Laya.stage.removeChildren(1);
+    p2()
   })
+  setInterval(function () {
+    for (var i = 0; i < 4; i++) {
+      Laya.Tween.from(p3.topNum.getChildAt(i), { alpha: 0, y: -30 }, 500, Laya.Ease.linearIn, null, 200 * i)
+    }
+  }, 3000);
+  actor()
 }
 function p4() {
-   for(var i=0;i<5;i++){     document.getElementsByClassName("pc")[i].style.display="none"       }
-  document.getElementById("pc2").style.display="block"
+  for (var i = 0; i < 5; i++) { document.getElementsByClassName("pc")[i].style.display = "none" }
+  document.getElementById("pc2").style.display = "block"
   musicShow()
-  var ani = new Laya.Animation();
-  ani.loadAtlas("res/atlas/f1.atlas"); // 加载图集动画
-  ani.interval = 50;			// 设置播放间隔（单位：毫秒）
-  ani.play(0, false); 				// 播放图集动画
-
-  // 获取动画的边界信息
-  var bounds = ani.getGraphicBounds();
-  ani.pivot(bounds.width / 2, bounds.height / 2);
-  ani.pos(Laya.stage.width / 2, Laya.stage.height / 2);
-  ani.scaleX = 1.8
-  ani.scaleY = 1.8
-  ani.zOrder = 1
-  Laya.stage.addChildAt(ani, 1);
-  Laya.Tween.to(ani, {scaleX: 1.4, scaleY: 1.2,y:500}, 500, Laya.Ease.linearIn, null, 2000)  
   var p4
-  ani.on(Laya.Event.COMPLETE, this, function (e) {
-    p4 = new page4UI()
-    p4.bot.y = Laya.stage.height - 130
-    p4.zOrder = 2
-    Laya.stage.addChildAt(p4, 1);
-    p4.topNum.on(Laya.Event.CLICK, this, function (e) {
-      Laya.Tween.from(p4, { alpha: 0 }, 500, Laya.Ease.linearIn, Laya.Handler.create(function () {
-      }), 0)
-      Laya.stage.removeChildren(1);
-      p2()
-    })
-    p4.show.play(1, false)
+  p4 = new page4UI()
+  p4.bot.y = Laya.stage.height - 130
+  p4.zOrder = 2
+  Laya.stage.addChildAt(p4, 1);
+  p4.on(Laya.Event.CLICK, this, function (e) {
+    Laya.Tween.from(p4, { alpha: 0 }, 500, Laya.Ease.linearIn, Laya.Handler.create(function () {
+    }), 0)
+    Laya.stage.removeChildren(1);
+    p2()
   })
+  p4.show.play(1, false)
   setInterval(function () {
     for (var i = 0; i < 4; i++) {
       Laya.Tween.from(p4.topNum.getChildAt(i), { alpha: 0, y: -20 }, 500, Laya.Ease.linearIn, null, 200 * i)
     }
   }, 3000);
+  actor()
 }
 function p5() {
-  for(var i=0;i<5;i++){
-    document.getElementsByClassName("pc")[i].style.display="none"    
+  for (var i = 0; i < 5; i++) {
+    document.getElementsByClassName("pc")[i].style.display = "none"
   }
-  document.getElementById("pc3").style.display="block"
+  document.getElementById("pc3").style.display = "block"
   musicShow()
-  var ani = new Laya.Animation();
-  ani.loadAtlas("res/atlas/f4.atlas"); // 加载图集动画
-  ani.interval = 30;			// 设置播放间隔（单位：毫秒）
-  ani.play(0, false); 				// 播放图集动画
-  // 获取动画的边界信息
-  var bounds = ani.getGraphicBounds();
-  ani.pivot(bounds.width / 2, bounds.height / 2);
-  ani.pos(Laya.stage.width / 2, Laya.stage.height / 2 - 50);
-  ani.scaleX = 1.7
-  ani.scaleY = 1.7
-  ani.zOrder = 1
-  Laya.stage.addChildAt(ani, 1);
-  Laya.Tween.to(ani, {scaleX: 1.4, scaleY: 1.2,y:500}, 500, Laya.Ease.linearIn, null, 2000)  
   var p5
-  ani.on(Laya.Event.COMPLETE, this, function (e) {
-    p5 = new page5UI()
-    p5.bot.y = Laya.stage.height - 130
-    p5.zOrder = 2
-    Laya.stage.addChildAt(p5, 1);
-    p5.show.play(1, false)
-    p5.topNum.on(Laya.Event.CLICK, this, function (e) {
-      Laya.Tween.from(p5, { alpha: 0 }, 500, Laya.Ease.linearIn, Laya.Handler.create(function () {
-      }), 0)
-      Laya.stage.removeChildren(1);
-      p2()
-    })
+  p5 = new page5UI()
+  p5.bot.y = Laya.stage.height - 130
+  p5.zOrder = 2
+  Laya.stage.addChildAt(p5, 1);
+  p5.show.play(1, false)
+  p5.on(Laya.Event.CLICK, this, function (e) {
+    Laya.Tween.from(p5, { alpha: 0 }, 500, Laya.Ease.linearIn, Laya.Handler.create(function () {
+    }), 0)
+    Laya.stage.removeChildren(1);
+    p2()
   })
   setInterval(function () {
     for (var i = 0; i < 4; i++) {
       Laya.Tween.from(p5.topNum.getChildAt(i), { alpha: 0, y: -20 }, 500, Laya.Ease.linearIn, null, 200 * i)
     }
   }, 3000);
+  actor()
 }
+
 function p6() {
-   for(var i=0;i<5;i++){     document.getElementsByClassName("pc")[i].style.display="none"       }
-  document.getElementById("pc4").style.display="block"
+  for (var i = 0; i < 5; i++) { document.getElementsByClassName("pc")[i].style.display = "none" }
+  document.getElementById("pc4").style.display = "block"
   musicShow()
-  var ani = new Laya.Animation();
-  ani.loadAtlas("res/atlas/f2.atlas"); // 加载图集动画
-  ani.interval = 40;			// 设置播放间隔（单位：毫秒）
-  ani.play(0, false); 				// 播放图集动画
-  // 获取动画的边界信息
-  var bounds = ani.getGraphicBounds();
-  ani.pivot(bounds.width / 2, bounds.height / 2);
-  ani.pos(Laya.stage.width / 2, Laya.stage.height / 2);
-  ani.scaleX = 1.5
-  ani.scaleY = 1.5
-  ani.zOrder = 1
-  Laya.stage.addChildAt(ani, 1);
-  Laya.Tween.to(ani, {scaleX: 1.4, scaleY: 1.2,y:500}, 500, Laya.Ease.linearIn, null, 2000)  
   var p6
-  ani.on(Laya.Event.COMPLETE, this, function (e) {
-    p6 = new page6UI()
-    p6.bot.y = Laya.stage.height - 130
-    p6.zOrder = 2
-    Laya.stage.addChildAt(p6, 1);
-    p6.show.play(1, false)
-    p6.topNum.on(Laya.Event.CLICK, this, function (e) {
-      Laya.Tween.from(p6, { alpha: 0 }, 500, Laya.Ease.linearIn, Laya.Handler.create(function () {
-      }), 0)
-      Laya.stage.removeChildren(1);
-      p2()
-    })
+  p6 = new page6UI()
+  p6.bot.y = Laya.stage.height - 130
+  p6.zOrder = 2
+  Laya.stage.addChildAt(p6, 1);
+  p6.show.play(1, false)
+  p6.on(Laya.Event.CLICK, this, function (e) {
+    Laya.Tween.from(p6, { alpha: 0 }, 500, Laya.Ease.linearIn, Laya.Handler.create(function () {
+    }), 0)
+    Laya.stage.removeChildren(1);
+    p2()
   })
   setInterval(function () {
     for (var i = 0; i < 4; i++) {
       Laya.Tween.from(p6.topNum.getChildAt(i), { alpha: 0, y: -20 }, 500, Laya.Ease.linearIn, null, 200 * i)
     }
   }, 3000);
+  actor()
 }
+
 function p7() {
-   for(var i=0;i<5;i++){     document.getElementsByClassName("pc")[i].style.display="none"       }
-  document.getElementById("pc5").style.display="block"
+  for (var i = 0; i < 5; i++) { document.getElementsByClassName("pc")[i].style.display = "none" }
+  document.getElementById("pc5").style.display = "block"
   musicShow()
-  var ani = new Laya.Animation();
-  ani.loadAtlas("res/atlas/f3.atlas"); // 加载图集动画
-  ani.interval = 40;			// 设置播放间隔（单位：毫秒）
-  ani.play(0, false); 				// 播放图集动画
-  // 获取动画的边界信息
-  var bounds = ani.getGraphicBounds();
-  ani.pivot(bounds.width / 2, bounds.height / 2);
-  ani.pos(Laya.stage.width / 2, Laya.stage.height / 2);
-  ani.scaleX = 1.8
-  ani.scaleY = 1.8
-  ani.zOrder = 1
-  Laya.stage.addChildAt(ani, 1);
-  Laya.Tween.to(ani, {scaleX: 1.5, scaleY: 1.4,y:500}, 500, Laya.Ease.linearIn, null, 2000)  
   var p7
-  ani.on(Laya.Event.COMPLETE, this, function (e) {
-    p7 = new page7UI()
-    p7.bot.y = Laya.stage.height - 130
-    p7.zOrder = 2
-    Laya.stage.addChildAt(p7, 1);
-    p7.show.play(1, false)
-    p7.topNum.on(Laya.Event.CLICK, this, function (e) {
-      Laya.Tween.from(p7, { alpha: 0 }, 500, Laya.Ease.linearIn, Laya.Handler.create(function () {
-      }), 0)
-      Laya.stage.removeChildren(1);
-      p2()
-    })
+  p7 = new page7UI()
+  p7.bot.y = Laya.stage.height - 130
+  p7.zOrder = 2
+  Laya.stage.addChildAt(p7, 1);
+  p7.show.play(1, false)
+  p7.on(Laya.Event.CLICK, this, function (e) {
+    Laya.Tween.from(p7, { alpha: 0 }, 500, Laya.Ease.linearIn, Laya.Handler.create(function () {
+    }), 0)
+    Laya.stage.removeChildren(1);
+    p2()
   })
   setInterval(function () {
     for (var i = 0; i < 4; i++) {
       Laya.Tween.from(p7.topNum.getChildAt(i), { alpha: 0, y: -20 }, 500, Laya.Ease.linearIn, null, 200 * i)
     }
   }, 3000);
+  actor()
+}
+
+function actor() {
+  var actor = new Laya.Image()
+  actor.width = 65
+  actor.height = 65
+  actor.x = 315
+  actor.y = 785
+  actor.skin = window.actorPic;
+  actor.zOrder = 3
+  var sp = new Laya.Sprite();
+  //自定义路径
+  var path = [
+    ["moveTo", 0, 0], //画笔的起始点，
+    ["arcTo", 65, 0, 65, 5, 5], //p1（500,0）为夹角B，（500,30）为端点p2
+    ["arcTo", 65, 65, 60, 65, 5],//p1（500,300）为夹角C，（470,300）为端点p2
+    ["arcTo", 0, 65, 0, 55, 5], //p1(0,300)为夹角D，（0,270）为端点p2
+    ["arcTo", 0, 0, 5, 0, 5],//p1(0,0)为夹角A，（30,0）为端点p2
+  ];
+  //绘制圆角矩形
+  sp.graphics.drawPath(0, 0, path, { fillStyle: "#ff0000" });
+  actor.mask = sp;
+  var name = new Laya.Text()
+  name.text = window.actorName;
+  name.color = "#d3a690";
+  name.width = 200;
+  name.height = 30;
+  name.x = 385;
+  name.y = 794;
+  name.fontSize = 20;
+  name.zOrder = 3;
+  Laya.stage.addChildAt(name, 1);
+  Laya.stage.addChildAt(actor, 1);
 }

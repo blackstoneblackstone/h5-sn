@@ -1,4 +1,29 @@
 <?php
+//https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx4069e1635ae1be38&redirect_uri=http%3a%2f%2fwww.wexue.top%2fwxAuth.php&response_type=code&scope=snsapi_base&state=http%3a%2f%2fwww.wexue.top%3a20000%2fhuaxue%2findex.html#wechat_redirect
+header("Content-type: text/html; charset=utf-8");
+$code = $_GET['code'];
+$state = $_GET['state'];
+if(empty($code)||empty($state)){
+   header("Location:https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx4069e1635ae1be38&redirect_uri=http%3a%2f%2fwww.simamedia.cn%2fgames%2fsn%2findex.php&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect");
+   exit;
+}
+$url = 'https://api.weixin.qq.com/sns/oauth2/access_token?appid=wx4069e1635ae1be38&secret=4578c042ea9361b6e16626f1aa3d7e52&code=' . $code . '&grant_type=authorization_code';
+$user = null;
+try {
+    $result = curlGet($url);
+    $obj = json_decode($result);
+    $openid = $obj->openid;
+	if(empty($openid)){
+	header("Location:https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx4069e1635ae1be38&redirect_uri=http%3a%2f%2fwww.simamedia.cn%2fgames%2fsn%2findex.php&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect");
+      exit;
+	}
+    $at=$obj->access_token;
+    $userInfo=curlGet("https://api.weixin.qq.com/sns/userinfo?access_token=".$at."&openid=".$openid."&lang=zh_CN");
+    $user = json_decode($userInfo);
+} catch (Exception $e) {
+    echo $e->getTraceAsString();
+}
+
 $wxParams = curlGet("http://www.simamedia.cn/weixinjs.php?url=" . base64_encode('http://www.simamedia.cn' . $_SERVER["REQUEST_URI"]));
 function curlGet($url, $method = 'get', $data = '')
 {
@@ -117,16 +142,23 @@ function curlGet($url, $method = 'get', $data = '')
 		  position:absolute;
 		  bottom:0px;
 		  height:300px;
-		  bottom:100px;
+		  bottom:0;
 		  z-index:100;
-			width:100%;
-			left: 0;
+		  width:100%;
+		  left: 0;
 			opacity: 0.01;
 			display: none;
 		}
 	</style>
+	<script>
+		window.actorName = "<?php 
+		 echo $user->nickname;
+		 ?>";
+		window.actorPic=  "<?php 
+		 echo $user->headimgurl;
+		 ?>";
+	</script>
 </head>
-
 <body>
 	<div class="loading" id="load">
 		<div class="top"></div>
@@ -143,11 +175,11 @@ function curlGet($url, $method = 'get', $data = '')
 		<div class="top"></div>
 		<video src="mp4/mov.mp4" preload="auto"  id="mov"></video>
 	</div>
-	<img src="images/p1.jpg" class="pc" id="pc1">
-	<img src="images/p2.jpg" class="pc" id="pc2">
-	<img src="images/p3.jpg" class="pc" id="pc3">
-	<img src="images/p4.jpg" class="pc" id="pc4">
-	<img src="images/p5.jpg" class="pc" id="pc5">
+	<img data-src="http://data.simamedia.cn/index.php?g=Restful&m=Sn&a=pic&openid=<?php  echo $user->openid;?>&p=p1&name=<?php  echo $user->nickname;?>&actor=<?php  echo $user->headimgurl;?>" class="pc" id="pc1">
+	<img data-src="http://data.simamedia.cn/index.php?g=Restful&m=Sn&a=pic&openid=<?php  echo $user->openid;?>&p=p2&name=<?php  echo $user->nickname;?>&actor=<?php  echo $user->headimgurl;?>" class="pc" id="pc2">
+	<img data-src="http://data.simamedia.cn/index.php?g=Restful&m=Sn&a=pic&openid=<?php  echo $user->openid;?>&p=p3&name=<?php  echo $user->nickname;?>&actor=<?php  echo $user->headimgurl;?>" class="pc" id="pc3">
+	<img data-src="http://data.simamedia.cn/index.php?g=Restful&m=Sn&a=pic&openid=<?php  echo $user->openid;?>&p=p4&name=<?php  echo $user->nickname;?>&actor=<?php  echo $user->headimgurl;?>" class="pc" id="pc4">
+	<img data-src="http://data.simamedia.cn/index.php?g=Restful&m=Sn&a=pic&openid=<?php  echo $user->openid;?>&p=p5&name=<?php  echo $user->nickname;?>&actor=<?php  echo $user->headimgurl;?>" class="pc" id="pc5">
     <audio src="mp4/music.mp3" id="music" loop="loop"> 
         <!--核心包，封装了显示对象渲染，事件，时间管理，时间轴动画，缓动，消息交互,socket，本地存储，鼠标触摸，声音，加载，颜色滤镜，位图字体等-->
         <script type="text/javascript" src="libs/min/laya.core.min.js"></script>
@@ -156,11 +188,11 @@ function curlGet($url, $method = 'get', $data = '')
         <!--粒子类库-->
         <script type="text/javascript" src="libs/min/laya.ui.min.js"></script>
         <script type="text/javascript" src="libs/min/jweixin-1.0.0.js"></script>
-        <script src="src/ui/layaUI.max.all.js?v=324333343"></script>
+        <script src="src/ui/layaUI.max.all.js?v=343343"></script>
         <!--自定义的js(bin/js文件夹下)文件自动添加到下面jsfile模块标签里面里，js的顺序可以手动修改，修改后保留修改的顺序，新增加的js会默认依次追加到标签里-->
         <!--删除标签，ide不会自动添加js文件，请谨慎操作-->
         <!--jsfile--startTag-->
-        <script src="src/main.js?v=324333343"></script>
+        <script src="src/main.js?v=324143"></script>
         <!--jsfile--endTag-->
         <script type="text/javascript">
     var _mtac = {};

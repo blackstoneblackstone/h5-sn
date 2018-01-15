@@ -1,9 +1,10 @@
 {
+    "x":0,
     "type":"View",
     "selectedBox":1,
-    "selecteID":24,
+    "selecteID":34,
     "referenceLines":null,
-    "props":{"width":828,"sceneColor":"#000000","sceneBg":"laya/views/p4.png","height":1400},
+    "props":{"width":828,"sceneColor":"#000000","height":1400},
     "nodeParent":-1,
     "label":"View",
     "isOpen":true,
@@ -13,11 +14,12 @@
     "compId":1,
     "child":[
         {
+            "x":15,
             "type":"Panel",
-            "props":{"y":30,"x":162,"width":838,"var":"topNum","scaleY":0.6,"scaleX":0.6,"height":233},
+            "props":{"y":50,"x":162,"width":838,"var":"topNum","scaleY":0.6,"scaleX":0.6,"height":233},
             "nodeParent":1,
             "label":"Panel(topNum)",
-            "isOpen":true,
+            "isOpen":false,
             "isDirectory":true,
             "isAniNode":true,
             "hasChild":true,
@@ -28,7 +30,6 @@
                     "props":{"y":60,"x":176},
                     "nodeParent":27,
                     "label":"Sprite",
-                    "isOpen":null,
                     "isDirectory":true,
                     "isAniNode":true,
                     "hasChild":true,
@@ -52,7 +53,6 @@
                     "props":{"y":60,"x":297},
                     "nodeParent":27,
                     "label":"Sprite",
-                    "isOpen":null,
                     "isDirectory":true,
                     "isAniNode":true,
                     "hasChild":true,
@@ -73,10 +73,9 @@
                 },
                 {
                     "type":"Sprite",
-                    "props":{"y":61.43631064928519,"x":411},
+                    "props":{"y":60,"x":411},
                     "nodeParent":27,
                     "label":"Sprite",
-                    "isOpen":null,
                     "isDirectory":true,
                     "isAniNode":true,
                     "hasChild":true,
@@ -97,10 +96,9 @@
                 },
                 {
                     "type":"Sprite",
-                    "props":{"y":64.0625,"x":492},
+                    "props":{"y":60,"x":492},
                     "nodeParent":27,
                     "label":"Sprite",
-                    "isOpen":null,
                     "isDirectory":true,
                     "isAniNode":true,
                     "hasChild":true,
@@ -121,10 +119,9 @@
                 },
                 {
                     "type":"Sprite",
-                    "props":{"y":132,"x":404,"width":292,"scaleX":0,"pivotY":20,"pivotX":146,"height":40},
+                    "props":{"y":131,"x":418,"width":292,"scaleX":1,"pivotY":20,"pivotX":146,"height":40},
                     "nodeParent":27,
                     "label":"Sprite",
-                    "isOpen":null,
                     "isDirectory":true,
                     "isAniNode":true,
                     "hasChild":true,
@@ -157,6 +154,7 @@
                 }]
         },
         {
+            "x":15,
             "type":"Panel",
             "props":{"y":1180,"x":335,"width":200,"var":"bot","height":100},
             "nodeParent":1,
@@ -181,8 +179,22 @@
                 }]
         },
         {
+            "x":15,
+            "type":"Image",
+            "props":{"y":238,"x":166,"skin":"images/ff5.png","scaleY":1,"scaleX":1},
+            "nodeParent":1,
+            "label":"Image",
+            "isDirectory":false,
+            "isAniNode":true,
+            "hasChild":false,
+            "compId":36,
+            "child":[
+                ]
+        },
+        {
+            "x":15,
             "type":"Panel",
-            "props":{"y":-282,"x":83,"width":735,"scaleY":0.9,"scaleX":0.9,"height":1258},
+            "props":{"y":-202,"x":120,"width":735,"scaleY":0.8,"scaleX":0.8,"height":1258},
             "nodeParent":1,
             "label":"Panel",
             "isOpen":true,
@@ -192,8 +204,9 @@
             "compId":34,
             "child":[
                 {
+                    "x":30,
                     "type":"Image",
-                    "props":{"y":894.8478260869565,"x":392.7608695652174,"width":562,"skin":"images/xihongshi.png","scaleY":1,"scaleX":1,"pivotY":160,"pivotX":281,"height":320,"alpha":0.5434782608695652},
+                    "props":{"y":888,"x":427,"width":562,"skin":"images/xihongshi.png","scaleY":1,"scaleX":1,"pivotY":160,"pivotX":281,"height":320,"alpha":1},
                     "nodeParent":34,
                     "label":"Image",
                     "isDirectory":false,
@@ -204,8 +217,9 @@
                         ]
                 },
                 {
+                    "x":30,
                     "type":"Image",
-                    "props":{"y":807.1111111111111,"x":-226.33333333333334,"width":233,"skin":"images/tizi.png","height":235},
+                    "props":{"y":832,"x":-7,"width":233,"skin":"images/tizi.png","height":235},
                     "nodeParent":34,
                     "label":"Image",
                     "isDirectory":false,
@@ -216,8 +230,9 @@
                         ]
                 },
                 {
+                    "x":30,
                     "type":"Image",
-                    "props":{"y":681,"x":352,"width":119,"skin":"images/xihongren1.png","height":124,"alpha":0},
+                    "props":{"y":716,"x":360,"width":119,"skin":"images/xihongren1.png","height":124,"alpha":1},
                     "nodeParent":34,
                     "label":"Image",
                     "isDirectory":false,
@@ -228,8 +243,9 @@
                         ]
                 },
                 {
+                    "x":30,
                     "type":"Image",
-                    "props":{"y":1054,"x":825,"width":120,"skin":"images/xihongshiren3.png","height":138},
+                    "props":{"y":986,"x":530,"width":89,"skin":"images/xihongshiren3.png","height":103},
                     "nodeParent":34,
                     "label":"Image",
                     "isDirectory":false,
@@ -240,8 +256,9 @@
                         ]
                 },
                 {
+                    "x":30,
                     "type":"Image",
-                    "props":{"y":1259,"x":-210,"width":204,"skin":"images/xihongshiren4.png","height":176},
+                    "props":{"y":930,"x":196,"width":204,"skin":"images/xihongshiren4.png","height":176},
                     "nodeParent":34,
                     "label":"Image",
                     "isDirectory":false,
@@ -252,8 +269,9 @@
                         ]
                 },
                 {
+                    "x":30,
                     "type":"Image",
-                    "props":{"y":1117,"x":838,"width":152,"skin":"images/hongshiren2.png","height":278},
+                    "props":{"y":923,"x":655,"width":152,"skin":"images/hongshiren2.png","height":278},
                     "nodeParent":34,
                     "label":"Image",
                     "isDirectory":false,
@@ -265,26 +283,15 @@
                 }]
         },
         {
+            "x":15,
             "type":"Image",
-            "props":{"y":660,"x":24,"width":768,"skin":"images/ai.png","height":557,"alpha":1},
+            "props":{"y":650,"x":0,"skin":"images/ai.png","alpha":1},
             "nodeParent":1,
             "label":"Image",
             "isDirectory":false,
             "isAniNode":true,
             "hasChild":false,
             "compId":35,
-            "child":[
-                ]
-        },
-        {
-            "type":"Image",
-            "props":{"y":401,"x":44,"width":739,"skin":"images/bg.png","height":289,"alpha":0},
-            "nodeParent":1,
-            "label":"Image",
-            "isDirectory":false,
-            "isAniNode":true,
-            "hasChild":false,
-            "compId":24,
             "child":[
                 ]
         }],
@@ -508,7 +515,7 @@
                                 "tween":true,
                                 "target":21,
                                 "key":"y",
-                                "index":19
+                                "index":11
                             },
                             {
                                 "value":832,
@@ -516,7 +523,7 @@
                                 "tween":true,
                                 "target":21,
                                 "key":"y",
-                                "index":46
+                                "index":29
                             }],
                         "x":[
                             {
@@ -534,7 +541,7 @@
                                 "tween":true,
                                 "target":21,
                                 "key":"x",
-                                "index":19
+                                "index":11
                             },
                             {
                                 "value":-7,
@@ -542,7 +549,7 @@
                                 "tween":true,
                                 "target":21,
                                 "key":"x",
-                                "index":46
+                                "index":29
                             }]
                     }
                 },
@@ -565,7 +572,7 @@
                                 "tween":true,
                                 "target":22,
                                 "key":"y",
-                                "index":46
+                                "index":24
                             }],
                         "x":[
                             {
@@ -583,7 +590,7 @@
                                 "tween":true,
                                 "target":22,
                                 "key":"x",
-                                "index":46
+                                "index":24
                             }],
                         "scaleY":[
                             {
@@ -601,7 +608,7 @@
                                 "tween":true,
                                 "target":22,
                                 "key":"scaleY",
-                                "index":46
+                                "index":24
                             }],
                         "scaleX":[
                             {
@@ -619,7 +626,7 @@
                                 "tween":true,
                                 "target":22,
                                 "key":"scaleX",
-                                "index":46
+                                "index":24
                             }],
                         "pivotY":[
                             {
@@ -667,7 +674,7 @@
                                 "tween":true,
                                 "target":22,
                                 "key":"alpha",
-                                "index":46
+                                "index":24
                             }]
                     }
                 },
@@ -690,7 +697,7 @@
                                 "target":32,
                                 "label":null,
                                 "key":"y",
-                                "index":35
+                                "index":18
                             },
                             {
                                 "value":930,
@@ -698,7 +705,7 @@
                                 "tween":true,
                                 "target":32,
                                 "key":"y",
-                                "index":50
+                                "index":31
                             }],
                         "x":[
                             {
@@ -716,7 +723,7 @@
                                 "target":32,
                                 "label":null,
                                 "key":"x",
-                                "index":35
+                                "index":18
                             },
                             {
                                 "value":196,
@@ -724,7 +731,7 @@
                                 "tween":true,
                                 "target":32,
                                 "key":"x",
-                                "index":50
+                                "index":31
                             }]
                     }
                 },
@@ -747,7 +754,7 @@
                                 "target":33,
                                 "label":null,
                                 "key":"y",
-                                "index":40
+                                "index":22
                             },
                             {
                                 "value":923,
@@ -755,7 +762,7 @@
                                 "tween":true,
                                 "target":33,
                                 "key":"y",
-                                "index":55
+                                "index":38
                             }],
                         "x":[
                             {
@@ -773,7 +780,7 @@
                                 "target":33,
                                 "label":null,
                                 "key":"x",
-                                "index":40
+                                "index":22
                             },
                             {
                                 "value":655,
@@ -781,7 +788,7 @@
                                 "tween":true,
                                 "target":33,
                                 "key":"x",
-                                "index":55
+                                "index":38
                             }]
                     }
                 },
@@ -804,7 +811,7 @@
                                 "target":31,
                                 "label":null,
                                 "key":"y",
-                                "index":45
+                                "index":25
                             },
                             {
                                 "value":986,
@@ -812,7 +819,7 @@
                                 "tween":true,
                                 "target":31,
                                 "key":"y",
-                                "index":64
+                                "index":33
                             }],
                         "x":[
                             {
@@ -830,7 +837,7 @@
                                 "target":31,
                                 "label":null,
                                 "key":"x",
-                                "index":45
+                                "index":25
                             },
                             {
                                 "value":530,
@@ -838,7 +845,7 @@
                                 "tween":true,
                                 "target":31,
                                 "key":"x",
-                                "index":64
+                                "index":33
                             }],
                         "width":[
                             {
@@ -856,7 +863,7 @@
                                 "target":31,
                                 "label":null,
                                 "key":"width",
-                                "index":45
+                                "index":25
                             },
                             {
                                 "value":89,
@@ -864,7 +871,7 @@
                                 "tween":true,
                                 "target":31,
                                 "key":"width",
-                                "index":64
+                                "index":33
                             }],
                         "height":[
                             {
@@ -882,7 +889,7 @@
                                 "target":31,
                                 "label":null,
                                 "key":"height",
-                                "index":45
+                                "index":25
                             },
                             {
                                 "value":103,
@@ -890,7 +897,7 @@
                                 "tween":true,
                                 "target":31,
                                 "key":"height",
-                                "index":64
+                                "index":33
                             }]
                     }
                 },
@@ -913,7 +920,7 @@
                                 "target":30,
                                 "label":null,
                                 "key":"y",
-                                "index":50
+                                "index":15
                             },
                             {
                                 "value":716,
@@ -921,7 +928,7 @@
                                 "tween":true,
                                 "target":30,
                                 "key":"y",
-                                "index":64
+                                "index":40
                             }],
                         "x":[
                             {
@@ -939,7 +946,7 @@
                                 "target":30,
                                 "label":null,
                                 "key":"x",
-                                "index":50
+                                "index":15
                             },
                             {
                                 "value":360,
@@ -947,7 +954,7 @@
                                 "tween":true,
                                 "target":30,
                                 "key":"x",
-                                "index":64
+                                "index":40
                             }],
                         "alpha":[
                             {
@@ -965,7 +972,7 @@
                                 "target":30,
                                 "label":null,
                                 "key":"alpha",
-                                "index":50
+                                "index":15
                             },
                             {
                                 "value":1,
@@ -973,7 +980,7 @@
                                 "tween":true,
                                 "target":30,
                                 "key":"alpha",
-                                "index":64
+                                "index":40
                             }]
                     }
                 },
@@ -996,6 +1003,14 @@
                                 "target":35,
                                 "key":"y",
                                 "index":10
+                            },
+                            {
+                                "value":650,
+                                "tweenMethod":"linearNone",
+                                "tween":true,
+                                "target":35,
+                                "key":"y",
+                                "index":25
                             }],
                         "alpha":[
                             {
@@ -1013,28 +1028,6 @@
                                 "target":35,
                                 "key":"alpha",
                                 "index":25
-                            }]
-                    }
-                },
-                {
-                    "target":24,
-                    "keyframes":{
-                        "alpha":[
-                            {
-                                "value":0,
-                                "tweenMethod":"linearNone",
-                                "tween":true,
-                                "target":24,
-                                "key":"alpha",
-                                "index":0
-                            },
-                            {
-                                "value":1,
-                                "tweenMethod":"linearNone",
-                                "tween":true,
-                                "target":24,
-                                "key":"alpha",
-                                "index":10
                             }]
                     }
                 },
@@ -1065,7 +1058,7 @@
                     "keyframes":{
                         "y":[
                             {
-                                "value":-282,
+                                "value":-202,
                                 "tweenMethod":"linearNone",
                                 "tween":true,
                                 "target":34,
@@ -1073,16 +1066,16 @@
                                 "index":0
                             },
                             {
-                                "value":-236,
+                                "value":-193,
                                 "tweenMethod":"linearNone",
                                 "tween":true,
                                 "target":34,
                                 "key":"y",
-                                "index":10
+                                "index":44
                             }],
                         "x":[
                             {
-                                "value":83,
+                                "value":120,
                                 "tweenMethod":"linearNone",
                                 "tween":true,
                                 "target":34,
@@ -1090,12 +1083,12 @@
                                 "index":0
                             },
                             {
-                                "value":60,
+                                "value":120,
                                 "tweenMethod":"linearNone",
                                 "tween":true,
                                 "target":34,
                                 "key":"x",
-                                "index":10
+                                "index":44
                             }]
                     }
                 }],

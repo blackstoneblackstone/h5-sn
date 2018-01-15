@@ -1,9 +1,9 @@
 {
     "type":"View",
     "selectedBox":1,
-    "selecteID":24,
+    "selecteID":28,
     "referenceLines":null,
-    "props":{"width":828,"sceneColor":"#000000","sceneBg":"laya/views/page3.png","height":1400},
+    "props":{"width":828,"sceneColor":"#000000","height":1400},
     "nodeParent":-1,
     "label":"View",
     "isOpen":true,
@@ -14,7 +14,7 @@
     "child":[
         {
             "type":"Panel",
-            "props":{"y":30,"x":175,"width":796,"var":"topNum","scaleY":0.6,"scaleX":0.6,"height":233},
+            "props":{"y":50,"x":175,"width":796,"var":"topNum","scaleY":0.6,"scaleX":0.6,"height":233},
             "nodeParent":1,
             "label":"Panel(topNum)",
             "isOpen":false,
@@ -28,7 +28,6 @@
                     "props":{"y":60,"x":176},
                     "nodeParent":27,
                     "label":"Sprite",
-                    "isOpen":null,
                     "isDirectory":true,
                     "isAniNode":true,
                     "hasChild":true,
@@ -52,7 +51,6 @@
                     "props":{"y":60,"x":297},
                     "nodeParent":27,
                     "label":"Sprite",
-                    "isOpen":null,
                     "isDirectory":true,
                     "isAniNode":true,
                     "hasChild":true,
@@ -76,7 +74,6 @@
                     "props":{"y":60,"x":411},
                     "nodeParent":27,
                     "label":"Sprite",
-                    "isOpen":null,
                     "isDirectory":true,
                     "isAniNode":true,
                     "hasChild":true,
@@ -100,7 +97,6 @@
                     "props":{"y":60,"x":492},
                     "nodeParent":27,
                     "label":"Sprite",
-                    "isOpen":null,
                     "isDirectory":true,
                     "isAniNode":true,
                     "hasChild":true,
@@ -124,7 +120,6 @@
                     "props":{"y":131,"x":418,"width":292,"scaleX":1,"pivotY":20,"pivotX":146,"height":40},
                     "nodeParent":27,
                     "label":"Sprite",
-                    "isOpen":null,
                     "isDirectory":true,
                     "isAniNode":true,
                     "hasChild":true,
@@ -182,7 +177,7 @@
         },
         {
             "type":"Panel",
-            "props":{"y":-374,"x":3,"width":828,"height":1118},
+            "props":{"y":-117,"x":80,"width":828,"scaleY":0.8,"scaleX":0.8,"height":1118},
             "nodeParent":1,
             "label":"Panel",
             "isOpen":true,
@@ -193,7 +188,19 @@
             "child":[
                 {
                     "type":"Image",
-                    "props":{"y":723,"x":2,"skin":"images/tizi.png"},
+                    "props":{"y":512,"x":46,"skin":"images/ff1.png","scaleY":1.3,"scaleX":1.3},
+                    "nodeParent":28,
+                    "label":"Image",
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":30,
+                    "child":[
+                        ]
+                },
+                {
+                    "type":"Image",
+                    "props":{"y":752,"x":-13,"skin":"images/tizi.png"},
                     "nodeParent":28,
                     "label":"Image",
                     "isDirectory":false,
@@ -205,7 +212,7 @@
                 },
                 {
                     "type":"Image",
-                    "props":{"y":853,"x":329,"width":562,"skin":"images/mifan.png","scaleY":1,"scaleX":1,"pivotY":160,"pivotX":281,"height":320,"alpha":1},
+                    "props":{"y":903,"x":352,"width":562,"skin":"images/mifan.png","scaleY":1,"scaleX":1,"pivotY":160,"pivotX":281,"height":320,"alpha":1},
                     "nodeParent":28,
                     "label":"Image",
                     "isDirectory":false,
@@ -217,7 +224,7 @@
                 },
                 {
                     "type":"Image",
-                    "props":{"y":884,"x":235,"width":139,"skin":"images/jidanren.png","pivotY":5,"pivotX":3,"height":145,"alpha":1},
+                    "props":{"y":918,"x":241,"width":139,"skin":"images/jidanren.png","pivotY":5,"pivotX":3,"height":145,"alpha":1},
                     "nodeParent":28,
                     "label":"Image",
                     "isDirectory":false,
@@ -230,25 +237,13 @@
         },
         {
             "type":"Image",
-            "props":{"y":660,"x":30,"width":768,"skin":"images/shou.png","height":557},
+            "props":{"y":700,"x":0,"skin":"images/shou.png","alpha":1},
             "nodeParent":1,
             "label":"Image",
             "isDirectory":false,
             "isAniNode":true,
             "hasChild":false,
             "compId":29,
-            "child":[
-                ]
-        },
-        {
-            "type":"Image",
-            "props":{"y":365,"x":44,"width":739,"skin":"images/bg.png","height":289,"alpha":1},
-            "nodeParent":1,
-            "label":"Image",
-            "isDirectory":false,
-            "isAniNode":true,
-            "hasChild":false,
-            "compId":24,
             "child":[
                 ]
         }],
@@ -450,37 +445,6 @@
                                 "target":13,
                                 "key":"scaleX",
                                 "index":45
-                            }]
-                    }
-                },
-                {
-                    "target":24,
-                    "keyframes":{
-                        "alpha":[
-                            {
-                                "value":0,
-                                "tweenMethod":"linearNone",
-                                "tween":true,
-                                "target":24,
-                                "label":null,
-                                "key":"alpha",
-                                "index":0
-                            },
-                            {
-                                "value":0,
-                                "tweenMethod":"linearNone",
-                                "tween":true,
-                                "target":24,
-                                "key":"alpha",
-                                "index":25
-                            },
-                            {
-                                "value":1,
-                                "tweenMethod":"linearNone",
-                                "tween":true,
-                                "target":24,
-                                "key":"alpha",
-                                "index":40
                             }]
                     }
                 },
@@ -810,7 +774,7 @@
                                 "index":0
                             },
                             {
-                                "value":700,
+                                "value":650,
                                 "tweenMethod":"linearNone",
                                 "tween":true,
                                 "target":29,

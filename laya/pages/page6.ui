@@ -1,9 +1,10 @@
 {
+    "x":0,
     "type":"View",
     "selectedBox":1,
-    "selecteID":24,
+    "selecteID":36,
     "referenceLines":null,
-    "props":{"width":828,"sceneColor":"#000000","sceneBg":"laya/views/p6.png","height":1400},
+    "props":{"width":828,"sceneColor":"#000000","height":1400},
     "nodeParent":-1,
     "label":"View",
     "isOpen":true,
@@ -13,17 +14,19 @@
     "compId":1,
     "child":[
         {
+            "x":15,
             "type":"Panel",
-            "props":{"y":30,"x":162,"width":838,"var":"topNum","scaleY":0.6,"scaleX":0.6,"height":233},
+            "props":{"y":41.111111111111114,"x":162,"width":838,"var":"topNum","scaleY":0.6,"scaleX":0.6,"height":233},
             "nodeParent":1,
             "label":"Panel(topNum)",
-            "isOpen":false,
+            "isOpen":true,
             "isDirectory":true,
             "isAniNode":true,
             "hasChild":true,
             "compId":27,
             "child":[
                 {
+                    "x":30,
                     "type":"Sprite",
                     "props":{"y":60,"x":176},
                     "nodeParent":27,
@@ -48,6 +51,7 @@
                         }]
                 },
                 {
+                    "x":30,
                     "type":"Sprite",
                     "props":{"y":60,"x":297},
                     "nodeParent":27,
@@ -72,6 +76,7 @@
                         }]
                 },
                 {
+                    "x":30,
                     "type":"Sprite",
                     "props":{"y":60,"x":411},
                     "nodeParent":27,
@@ -96,6 +101,7 @@
                         }]
                 },
                 {
+                    "x":30,
                     "type":"Sprite",
                     "props":{"y":60,"x":492},
                     "nodeParent":27,
@@ -120,6 +126,7 @@
                         }]
                 },
                 {
+                    "x":30,
                     "type":"Sprite",
                     "props":{"y":131,"x":418,"width":292,"scaleX":1,"pivotY":20,"pivotX":146,"height":40},
                     "nodeParent":27,
@@ -157,6 +164,7 @@
                 }]
         },
         {
+            "x":15,
             "type":"Panel",
             "props":{"y":1180,"x":335,"width":200,"var":"bot","height":100},
             "nodeParent":1,
@@ -181,8 +189,22 @@
                 }]
         },
         {
+            "x":15,
+            "type":"Image",
+            "props":{"y":280,"x":178,"skin":"images/ff3.png","scaleY":1,"scaleX":1},
+            "nodeParent":1,
+            "label":"Image",
+            "isDirectory":false,
+            "isAniNode":true,
+            "hasChild":false,
+            "compId":38,
+            "child":[
+                ]
+        },
+        {
+            "x":15,
             "type":"Panel",
-            "props":{"y":-343,"x":0,"width":828,"height":1368},
+            "props":{"y":-100,"x":82,"width":828,"scaleY":0.8,"scaleX":0.8,"height":1368},
             "nodeParent":1,
             "label":"Panel",
             "isOpen":true,
@@ -192,8 +214,9 @@
             "compId":36,
             "child":[
                 {
+                    "x":30,
                     "type":"Image",
-                    "props":{"y":833,"x":457,"width":404,"skin":"images/jidan.png","scaleY":1,"scaleX":1,"pivotY":160,"pivotX":281,"height":362,"alpha":1},
+                    "props":{"y":837.6666666666666,"x":450,"width":404,"skin":"images/jidan.png","scaleY":0.9333333333333333,"scaleX":0.9333333333333333,"pivotY":160,"pivotX":281,"height":359.2,"alpha":0.9333333333333333},
                     "nodeParent":36,
                     "label":"Image",
                     "isDirectory":false,
@@ -204,8 +227,9 @@
                         ]
                 },
                 {
+                    "x":30,
                     "type":"Image",
-                    "props":{"y":897,"x":111,"width":190,"skin":"images/jidanren.png","height":198,"alpha":1},
+                    "props":{"y":1050,"x":-184.5,"width":190,"skin":"images/jidanren.png","height":198,"alpha":0.5},
                     "nodeParent":36,
                     "label":"Image",
                     "isDirectory":false,
@@ -216,8 +240,9 @@
                         ]
                 },
                 {
+                    "x":30,
                     "type":"Image",
-                    "props":{"y":725,"x":494,"width":180,"skin":"images/tanzhaodeng.png","height":282,"alpha":1},
+                    "props":{"y":857.3,"x":850.3,"width":180,"skin":"images/tanzhaodeng.png","height":282,"alpha":0.3},
                     "nodeParent":36,
                     "label":"Image",
                     "isDirectory":false,
@@ -229,26 +254,15 @@
                 }]
         },
         {
+            "x":15,
             "type":"Image",
-            "props":{"y":660,"x":30,"width":768,"skin":"images/kao.png","height":557},
+            "props":{"y":650,"x":0,"skin":"images/kao.png","alpha":1},
             "nodeParent":1,
             "label":"Image",
             "isDirectory":false,
             "isAniNode":true,
             "hasChild":false,
             "compId":37,
-            "child":[
-                ]
-        },
-        {
-            "type":"Image",
-            "props":{"y":272,"x":44,"width":739,"skin":"images/bg.png","height":289,"alpha":1},
-            "nodeParent":1,
-            "label":"Image",
-            "isDirectory":false,
-            "isAniNode":true,
-            "hasChild":false,
-            "compId":24,
             "child":[
                 ]
         }],
@@ -454,63 +468,6 @@
                     }
                 },
                 {
-                    "target":24,
-                    "keyframes":{
-                        "y":[
-                            {
-                                "value":654,
-                                "tweenMethod":"linearNone",
-                                "tween":true,
-                                "target":24,
-                                "key":"y",
-                                "index":0
-                            },
-                            {
-                                "value":377,
-                                "tweenMethod":"linearNone",
-                                "tween":true,
-                                "target":24,
-                                "key":"y",
-                                "index":5
-                            }],
-                        "x":[
-                            {
-                                "value":44,
-                                "tweenMethod":"linearNone",
-                                "tween":true,
-                                "target":24,
-                                "key":"x",
-                                "index":0
-                            },
-                            {
-                                "value":44,
-                                "tweenMethod":"linearNone",
-                                "tween":true,
-                                "target":24,
-                                "key":"x",
-                                "index":5
-                            }],
-                        "alpha":[
-                            {
-                                "value":0,
-                                "tweenMethod":"linearNone",
-                                "tween":true,
-                                "target":24,
-                                "label":null,
-                                "key":"alpha",
-                                "index":0
-                            },
-                            {
-                                "value":1,
-                                "tweenMethod":"linearNone",
-                                "tween":true,
-                                "target":24,
-                                "key":"alpha",
-                                "index":5
-                            }]
-                    }
-                },
-                {
                     "target":22,
                     "keyframes":{
                         "y":[
@@ -529,7 +486,7 @@
                                 "tween":true,
                                 "target":22,
                                 "key":"y",
-                                "index":31
+                                "index":11
                             },
                             {
                                 "value":833,
@@ -537,7 +494,7 @@
                                 "tween":true,
                                 "target":22,
                                 "key":"y",
-                                "index":46
+                                "index":20
                             }],
                         "x":[
                             {
@@ -555,7 +512,7 @@
                                 "tween":true,
                                 "target":22,
                                 "key":"x",
-                                "index":31
+                                "index":11
                             },
                             {
                                 "value":457,
@@ -563,7 +520,7 @@
                                 "tween":true,
                                 "target":22,
                                 "key":"x",
-                                "index":46
+                                "index":20
                             }],
                         "scaleY":[
                             {
@@ -581,7 +538,7 @@
                                 "tween":true,
                                 "target":22,
                                 "key":"scaleY",
-                                "index":31
+                                "index":11
                             },
                             {
                                 "value":1,
@@ -589,7 +546,7 @@
                                 "tween":true,
                                 "target":22,
                                 "key":"scaleY",
-                                "index":46
+                                "index":20
                             }],
                         "scaleX":[
                             {
@@ -607,7 +564,7 @@
                                 "tween":true,
                                 "target":22,
                                 "key":"scaleX",
-                                "index":31
+                                "index":11
                             },
                             {
                                 "value":1,
@@ -615,7 +572,7 @@
                                 "tween":true,
                                 "target":22,
                                 "key":"scaleX",
-                                "index":46
+                                "index":20
                             }],
                         "pivotY":[
                             {
@@ -633,7 +590,7 @@
                                 "tween":true,
                                 "target":22,
                                 "key":"pivotY",
-                                "index":31
+                                "index":11
                             }],
                         "pivotX":[
                             {
@@ -651,7 +608,7 @@
                                 "tween":true,
                                 "target":22,
                                 "key":"pivotX",
-                                "index":31
+                                "index":11
                             }],
                         "height":[
                             {
@@ -669,7 +626,7 @@
                                 "tween":true,
                                 "target":22,
                                 "key":"height",
-                                "index":31
+                                "index":11
                             },
                             {
                                 "value":362,
@@ -677,7 +634,7 @@
                                 "tween":true,
                                 "target":22,
                                 "key":"height",
-                                "index":46
+                                "index":20
                             }],
                         "alpha":[
                             {
@@ -695,7 +652,7 @@
                                 "tween":true,
                                 "target":22,
                                 "key":"alpha",
-                                "index":31
+                                "index":11
                             },
                             {
                                 "value":1,
@@ -703,7 +660,7 @@
                                 "tween":true,
                                 "target":22,
                                 "key":"alpha",
-                                "index":46
+                                "index":20
                             }]
                     }
                 },
@@ -726,7 +683,7 @@
                                 "target":34,
                                 "label":null,
                                 "key":"y",
-                                "index":35
+                                "index":15
                             },
                             {
                                 "value":897,
@@ -734,7 +691,7 @@
                                 "tween":true,
                                 "target":34,
                                 "key":"y",
-                                "index":55
+                                "index":35
                             }],
                         "x":[
                             {
@@ -752,7 +709,7 @@
                                 "target":34,
                                 "label":null,
                                 "key":"x",
-                                "index":35
+                                "index":15
                             },
                             {
                                 "value":111,
@@ -760,7 +717,7 @@
                                 "tween":true,
                                 "target":34,
                                 "key":"x",
-                                "index":55
+                                "index":35
                             }],
                         "alpha":[
                             {
@@ -778,7 +735,7 @@
                                 "target":34,
                                 "label":null,
                                 "key":"alpha",
-                                "index":35
+                                "index":15
                             },
                             {
                                 "value":1,
@@ -786,7 +743,7 @@
                                 "tween":true,
                                 "target":34,
                                 "key":"alpha",
-                                "index":55
+                                "index":35
                             }]
                     }
                 },
@@ -809,7 +766,7 @@
                                 "target":35,
                                 "label":null,
                                 "key":"y",
-                                "index":39
+                                "index":13
                             },
                             {
                                 "value":725,
@@ -817,16 +774,7 @@
                                 "tween":true,
                                 "target":35,
                                 "key":"y",
-                                "index":59
-                            },
-                            {
-                                "value":725,
-                                "tweenMethod":"linearNone",
-                                "tween":true,
-                                "target":35,
-                                "label":null,
-                                "key":"y",
-                                "index":65
+                                "index":20
                             },
                             {
                                 "value":725,
@@ -835,7 +783,7 @@
                                 "target":35,
                                 "label":null,
                                 "key":"y",
-                                "index":71
+                                "index":25
                             },
                             {
                                 "value":725,
@@ -844,7 +792,7 @@
                                 "target":35,
                                 "label":null,
                                 "key":"y",
-                                "index":76
+                                "index":31
                             },
                             {
                                 "value":725,
@@ -853,7 +801,16 @@
                                 "target":35,
                                 "label":null,
                                 "key":"y",
-                                "index":81
+                                "index":36
+                            },
+                            {
+                                "value":725,
+                                "tweenMethod":"linearNone",
+                                "tween":true,
+                                "target":35,
+                                "label":null,
+                                "key":"y",
+                                "index":41
                             }],
                         "x":[
                             {
@@ -871,7 +828,7 @@
                                 "target":35,
                                 "label":null,
                                 "key":"x",
-                                "index":39
+                                "index":13
                             },
                             {
                                 "value":494,
@@ -879,16 +836,7 @@
                                 "tween":true,
                                 "target":35,
                                 "key":"x",
-                                "index":59
-                            },
-                            {
-                                "value":494,
-                                "tweenMethod":"linearNone",
-                                "tween":true,
-                                "target":35,
-                                "label":null,
-                                "key":"x",
-                                "index":65
+                                "index":20
                             },
                             {
                                 "value":494,
@@ -897,7 +845,7 @@
                                 "target":35,
                                 "label":null,
                                 "key":"x",
-                                "index":71
+                                "index":25
                             },
                             {
                                 "value":494,
@@ -906,7 +854,7 @@
                                 "target":35,
                                 "label":null,
                                 "key":"x",
-                                "index":76
+                                "index":31
                             },
                             {
                                 "value":494,
@@ -915,7 +863,16 @@
                                 "target":35,
                                 "label":null,
                                 "key":"x",
-                                "index":81
+                                "index":36
+                            },
+                            {
+                                "value":494,
+                                "tweenMethod":"linearNone",
+                                "tween":true,
+                                "target":35,
+                                "label":null,
+                                "key":"x",
+                                "index":41
                             }],
                         "alpha":[
                             {
@@ -933,7 +890,7 @@
                                 "target":35,
                                 "label":null,
                                 "key":"alpha",
-                                "index":39
+                                "index":13
                             },
                             {
                                 "value":1,
@@ -941,7 +898,7 @@
                                 "tween":true,
                                 "target":35,
                                 "key":"alpha",
-                                "index":59
+                                "index":20
                             },
                             {
                                 "value":0,
@@ -950,7 +907,7 @@
                                 "target":35,
                                 "label":null,
                                 "key":"alpha",
-                                "index":65
+                                "index":25
                             },
                             {
                                 "value":1,
@@ -959,7 +916,7 @@
                                 "target":35,
                                 "label":null,
                                 "key":"alpha",
-                                "index":71
+                                "index":31
                             },
                             {
                                 "value":0,
@@ -968,7 +925,7 @@
                                 "target":35,
                                 "label":null,
                                 "key":"alpha",
-                                "index":76
+                                "index":36
                             },
                             {
                                 "value":1,
@@ -977,7 +934,7 @@
                                 "target":35,
                                 "label":null,
                                 "key":"alpha",
-                                "index":81
+                                "index":41
                             }]
                     }
                 },
@@ -994,12 +951,12 @@
                                 "index":0
                             },
                             {
-                                "value":700,
+                                "value":650,
                                 "tweenMethod":"linearNone",
                                 "tween":true,
                                 "target":37,
                                 "key":"y",
-                                "index":81
+                                "index":14
                             }],
                         "alpha":[
                             {
@@ -1016,7 +973,7 @@
                                 "tween":true,
                                 "target":37,
                                 "key":"alpha",
-                                "index":25
+                                "index":14
                             }]
                     }
                 },
@@ -1038,7 +995,7 @@
                                 "tween":true,
                                 "target":27,
                                 "key":"y",
-                                "index":81
+                                "index":19
                             }]
                     }
                 }],

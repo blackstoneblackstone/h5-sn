@@ -1,9 +1,14 @@
 <res>
-   <item name="images/bigbg.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="images/bigbg.png" type="Image" compress="0" pack="2" quality="80" props="" picType="0"/>
    <item name="images/sdd.png" type="Image" compress="0" pack="2" quality="80" props="" picType="0"/>
    <item name="images/niunairen2.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
    <item name="images/hongshiren2.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
    <item name="f1/手写福字_1_00002.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
    <item name="f1/1.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
    <item name="images/fuqi.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="images/code.jpg" type="Image" compress="0" pack="2" quality="80" props="" picType="0"/>
+   <item name="images/ff1.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="images/ff2.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="images/ff4.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="images/actor.jpg" type="Image" compress="0" pack="2" quality="80" props="" picType="0"/>
 </res>
