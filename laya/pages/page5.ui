@@ -1,7 +1,8 @@
 {
+    "x":0,
     "type":"View",
     "selectedBox":1,
-    "selecteID":37,
+    "selecteID":40,
     "referenceLines":null,
     "props":{"width":828,"sceneColor":"#000000","height":1400},
     "nodeParent":-1,
@@ -13,11 +14,12 @@
     "compId":1,
     "child":[
         {
+            "x":15,
             "type":"Panel",
             "props":{"y":50,"x":162,"width":838,"var":"topNum","scaleY":0.6,"scaleX":0.6,"height":233},
             "nodeParent":1,
             "label":"Panel(topNum)",
-            "isOpen":true,
+            "isOpen":false,
             "isDirectory":true,
             "isAniNode":true,
             "hasChild":true,
@@ -157,32 +159,23 @@
                 }]
         },
         {
+            "x":15,
             "type":"Panel",
             "props":{"y":1180,"x":335,"width":200,"var":"bot","height":100},
             "nodeParent":1,
             "label":"Panel(bot)",
-            "isOpen":null,
-            "isDirectory":true,
+            "isOpen":true,
+            "isDirectory":false,
             "isAniNode":true,
-            "hasChild":true,
+            "hasChild":false,
             "compId":26,
             "child":[
-                {
-                    "type":"Animation",
-                    "props":{"width":300,"source":"bottom.ani","height":100,"autoPlay":true},
-                    "nodeParent":26,
-                    "label":"Animation",
-                    "isDirectory":false,
-                    "isAniNode":true,
-                    "hasChild":false,
-                    "compId":25,
-                    "child":[
-                        ]
-                }]
+                ]
         },
         {
+            "x":15,
             "type":"Image",
-            "props":{"y":266,"x":144,"skin":"images/ff4.png"},
+            "props":{"y":250,"x":144,"skin":"images/ff4.png"},
             "nodeParent":1,
             "label":"Image",
             "isDirectory":false,
@@ -193,8 +186,9 @@
                 ]
         },
         {
+            "x":15,
             "type":"Panel",
-            "props":{"y":102,"x":165,"width":828,"scaleY":0.6,"scaleX":0.6,"height":1102},
+            "props":{"y":118,"x":165,"width":828,"scaleY":0.6,"scaleX":0.6,"height":1102},
             "nodeParent":1,
             "label":"Panel",
             "isOpen":true,
@@ -204,6 +198,7 @@
             "compId":37,
             "child":[
                 {
+                    "x":30,
                     "type":"Image",
                     "props":{"y":857,"x":382,"width":589,"skin":"images/niurou.png","scaleY":1,"scaleX":1,"pivotY":160,"pivotX":281,"height":320,"alpha":1},
                     "nodeParent":37,
@@ -216,6 +211,7 @@
                         ]
                 },
                 {
+                    "x":30,
                     "type":"Image",
                     "props":{"y":805,"x":191,"width":262,"skin":"images/niurouren1.png","height":228,"alpha":1},
                     "nodeParent":37,
@@ -228,6 +224,7 @@
                         ]
                 },
                 {
+                    "x":30,
                     "type":"Image",
                     "props":{"y":900,"x":503,"width":180,"skin":"images/niurouren2.png","height":117,"alpha":1},
                     "nodeParent":37,
@@ -241,8 +238,9 @@
                 }]
         },
         {
+            "x":15,
             "type":"Image",
-            "props":{"y":700,"x":0,"skin":"images/mei.png","alpha":1},
+            "props":{"y":650,"x":0,"skin":"images/mei.png","alpha":1},
             "nodeParent":1,
             "label":"Image",
             "isDirectory":false,
@@ -806,45 +804,6 @@
                                 "target":36,
                                 "key":"alpha",
                                 "index":37
-                            }]
-                    }
-                },
-                {
-                    "target":38,
-                    "keyframes":{
-                        "y":[
-                            {
-                                "value":660,
-                                "tweenMethod":"linearNone",
-                                "tween":true,
-                                "target":38,
-                                "key":"y",
-                                "index":0
-                            },
-                            {
-                                "value":650,
-                                "tweenMethod":"linearNone",
-                                "tween":true,
-                                "target":38,
-                                "key":"y",
-                                "index":21
-                            }],
-                        "alpha":[
-                            {
-                                "value":0,
-                                "tweenMethod":"linearNone",
-                                "tween":true,
-                                "target":38,
-                                "key":"alpha",
-                                "index":0
-                            },
-                            {
-                                "value":1,
-                                "tweenMethod":"linearNone",
-                                "tween":true,
-                                "target":38,
-                                "key":"alpha",
-                                "index":21
                             }]
                     }
                 },

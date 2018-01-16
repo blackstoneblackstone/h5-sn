@@ -91,6 +91,7 @@ function musicShow() {
 }
 
 function p2() {
+  document.getElementById("code").style.display = "none"
   for (var i = 0; i < 5; i++) {
     document.getElementsByClassName("pc")[i].src = document.getElementsByClassName("pc")[i].dataset.src
     document.getElementsByClassName("pc")[i].style.display = "none"
@@ -358,7 +359,7 @@ function actor() {
   actor.mask = sp;
   var name = new Laya.Text()
   name.text = window.actorName;
-  name.color = "#d3a690";
+  name.color = "#aa816d";
   name.width = 200;
   name.height = 30;
   name.x = 385;
@@ -367,4 +368,6 @@ function actor() {
   name.zOrder = 3;
   Laya.stage.addChildAt(name, 1);
   Laya.stage.addChildAt(actor, 1);
+  document.getElementById("code").style.display = "block"
+  
 }

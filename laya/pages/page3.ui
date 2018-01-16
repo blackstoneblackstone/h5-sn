@@ -1,7 +1,7 @@
 {
     "type":"View",
     "selectedBox":1,
-    "selecteID":28,
+    "selecteID":31,
     "referenceLines":null,
     "props":{"width":828,"sceneColor":"#000000","height":1400},
     "nodeParent":-1,
@@ -153,34 +153,23 @@
         },
         {
             "type":"Panel",
-            "props":{"y":1184,"x":335,"width":200,"var":"bot","height":100},
+            "props":{"y":1184,"x":314,"width":200,"var":"bot","height":100},
             "nodeParent":1,
             "label":"Panel(bot)",
-            "isOpen":false,
-            "isDirectory":true,
+            "isOpen":true,
+            "isDirectory":false,
             "isAniNode":true,
-            "hasChild":true,
+            "hasChild":false,
             "compId":26,
             "child":[
-                {
-                    "type":"Animation",
-                    "props":{"width":300,"source":"bottom.ani","height":100,"autoPlay":true},
-                    "nodeParent":26,
-                    "label":"Animation",
-                    "isDirectory":false,
-                    "isAniNode":true,
-                    "hasChild":false,
-                    "compId":25,
-                    "child":[
-                        ]
-                }]
+                ]
         },
         {
             "type":"Panel",
             "props":{"y":-117,"x":80,"width":828,"scaleY":0.8,"scaleX":0.8,"height":1118},
             "nodeParent":1,
             "label":"Panel",
-            "isOpen":true,
+            "isOpen":false,
             "isDirectory":true,
             "isAniNode":true,
             "hasChild":true,
@@ -237,7 +226,7 @@
         },
         {
             "type":"Image",
-            "props":{"y":700,"x":0,"skin":"images/shou.png","alpha":1},
+            "props":{"y":650,"x":0,"skin":"images/shou.png","alpha":1},
             "nodeParent":1,
             "label":"Image",
             "isDirectory":false,
@@ -758,45 +747,6 @@
                                 "target":22,
                                 "key":"alpha",
                                 "index":46
-                            }]
-                    }
-                },
-                {
-                    "target":29,
-                    "keyframes":{
-                        "y":[
-                            {
-                                "value":660,
-                                "tweenMethod":"linearNone",
-                                "tween":true,
-                                "target":29,
-                                "key":"y",
-                                "index":0
-                            },
-                            {
-                                "value":650,
-                                "tweenMethod":"linearNone",
-                                "tween":true,
-                                "target":29,
-                                "key":"y",
-                                "index":25
-                            }],
-                        "alpha":[
-                            {
-                                "value":0,
-                                "tweenMethod":"linearNone",
-                                "tween":true,
-                                "target":29,
-                                "key":"alpha",
-                                "index":0
-                            },
-                            {
-                                "value":1,
-                                "tweenMethod":"linearNone",
-                                "tween":true,
-                                "target":29,
-                                "key":"alpha",
-                                "index":25
                             }]
                     }
                 },

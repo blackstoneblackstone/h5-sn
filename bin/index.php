@@ -46,7 +46,7 @@ function curlGet($url, $method = 'get', $data = '')
 
 <head>
 	<meta charset='utf-8' />
-	<title>首农送福 戊戌大吉</title>
+	<title>2018首农给您送福啦！</title>
 	<meta name='viewport' content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no'
 	/>
 	<meta name="renderer" content="webkit">
@@ -128,14 +128,14 @@ function curlGet($url, $method = 'get', $data = '')
 			left: 0;
 			z-index: -1;
 		}
-			.code{
+		.code {
 			position: absolute;
 			z-index: 10;
-			bottom:60px;
-			width: 30px;
-			height: 30px;
+			bottom: 20px;
+			width: 40px;
+			height: 40px;
 			left: 50%;
-			margin-left: -15px;
+			margin-left: -20px;
 			display: none;
 		}
 		.pc{
@@ -149,6 +149,7 @@ function curlGet($url, $method = 'get', $data = '')
 			opacity: 0.01;
 			display: none;
 		}
+		
 	</style>
 	<script>
 		window.actorName = "<?php 
@@ -175,6 +176,7 @@ function curlGet($url, $method = 'get', $data = '')
 		<div class="top"></div>
 		<video src="mp4/mov.mp4" preload="auto"  id="mov"></video>
 	</div>
+	<img src="images/code.jpg" class="code" id="code">
 	<img data-src="http://data.simamedia.cn/index.php?g=Restful&m=Sn&a=pic&openid=<?php  echo $user->openid;?>&p=p1&name=<?php  echo $user->nickname;?>&actor=<?php  echo $user->headimgurl;?>" class="pc" id="pc1">
 	<img data-src="http://data.simamedia.cn/index.php?g=Restful&m=Sn&a=pic&openid=<?php  echo $user->openid;?>&p=p2&name=<?php  echo $user->nickname;?>&actor=<?php  echo $user->headimgurl;?>" class="pc" id="pc2">
 	<img data-src="http://data.simamedia.cn/index.php?g=Restful&m=Sn&a=pic&openid=<?php  echo $user->openid;?>&p=p3&name=<?php  echo $user->nickname;?>&actor=<?php  echo $user->headimgurl;?>" class="pc" id="pc3">
@@ -209,7 +211,7 @@ function curlGet($url, $method = 'get', $data = '')
         );
         wx.ready(function () {
             wx.onMenuShareTimeline({
-                title: '首农给您送福啦！', // 分享标题
+                title: '2018你的福气都在这！', // 分享标题
                 link: 'http://www.simamedia.cn/games/sn/index.php', // 分享链接
                 imgUrl: 'http://www.simamedia.cn/games/sn/images/icon.png', // 分享图标
                 success: function () {
@@ -219,7 +221,7 @@ function curlGet($url, $method = 'get', $data = '')
                 }
             });
             wx.onMenuShareAppMessage({
-                title: '首农给您送福啦！', // 分享标题
+                title: '2018你的福气都在这！', // 分享标题
                 desc: '福气从天降，谁也挡不住啊！', // 分享描述
                 link: 'http://www.simamedia.cn/games/sn/index.php', // 分享链接
                 imgUrl: 'http://www.simamedia.cn/games/sn/images/icon.png', // 分享图标
