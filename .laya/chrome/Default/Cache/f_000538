@@ -1,4 +1,4 @@
-webpackJsonp([22],{
+webpackJsonp([24],{
 
 /***/ "+17+":
 /***/ (function(module, exports) {
@@ -65,37 +65,37 @@ module.exports = Component.exports
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__pages_index_index_vue__ = __webpack_require__("Qt9A");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__pages_index_index_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__pages_index_index_vue__);
 var starStore = function starStore() {
-  return __webpack_require__.e/* import() */(8).then(__webpack_require__.bind(null, "Sv3Z"));
+  return __webpack_require__.e/* import() */(9).then(__webpack_require__.bind(null, "Sv3Z"));
 };
 var library = function library() {
-  return __webpack_require__.e/* import() */(11).then(__webpack_require__.bind(null, "F6D1"));
+  return __webpack_require__.e/* import() */(12).then(__webpack_require__.bind(null, "F6D1"));
 };
 var books = function books() {
-  return __webpack_require__.e/* import() */(6).then(__webpack_require__.bind(null, "w6kD"));
+  return __webpack_require__.e/* import() */(7).then(__webpack_require__.bind(null, "w6kD"));
 };
 var summercamp = function summercamp() {
   return __webpack_require__.e/* import() */(2).then(__webpack_require__.bind(null, "XBvp"));
 };
 var extensionCourse = function extensionCourse() {
-  return __webpack_require__.e/* import() */(12).then(__webpack_require__.bind(null, "RIIF"));
+  return __webpack_require__.e/* import() */(14).then(__webpack_require__.bind(null, "RIIF"));
 };
 var courseware = function courseware() {
-  return __webpack_require__.e/* import() */(16).then(__webpack_require__.bind(null, "2jL+"));
+  return __webpack_require__.e/* import() */(18).then(__webpack_require__.bind(null, "2jL+"));
 };
 var majorCourse = function majorCourse() {
   return __webpack_require__.e/* import() */(1).then(__webpack_require__.bind(null, "Ho8S"));
 };
 var extensionVideo = function extensionVideo() {
-  return __webpack_require__.e/* import() */(15).then(__webpack_require__.bind(null, "V2GF"));
+  return __webpack_require__.e/* import() */(17).then(__webpack_require__.bind(null, "V2GF"));
 };
 var projectVideo = function projectVideo() {
-  return __webpack_require__.e/* import() */(13).then(__webpack_require__.bind(null, "p8OJ"));
+  return __webpack_require__.e/* import() */(15).then(__webpack_require__.bind(null, "p8OJ"));
 };
 var preVideo = function preVideo() {
-  return __webpack_require__.e/* import() */(19).then(__webpack_require__.bind(null, "qj5g"));
+  return __webpack_require__.e/* import() */(21).then(__webpack_require__.bind(null, "qj5g"));
 };
 var majorExtension = function majorExtension() {
-  return __webpack_require__.e/* import() */(17).then(__webpack_require__.bind(null, "kcdp"));
+  return __webpack_require__.e/* import() */(19).then(__webpack_require__.bind(null, "kcdp"));
 };
 var majorExtensionMc = function majorExtensionMc() {
   return __webpack_require__.e/* import() */(0).then(__webpack_require__.bind(null, "t0g8"));
@@ -107,36 +107,38 @@ var otherCourse = function otherCourse() {
   return __webpack_require__.e/* import() */(0).then(__webpack_require__.bind(null, "G789"));
 };
 var digitalLibrary = function digitalLibrary() {
-  return __webpack_require__.e/* import() */(4).then(__webpack_require__.bind(null, "9dkK"));
+  return __webpack_require__.e/* import() */(5).then(__webpack_require__.bind(null, "9dkK"));
 };
 var myBookshelf = function myBookshelf() {
-  return __webpack_require__.e/* import() */(9).then(__webpack_require__.bind(null, "tShD"));
+  return __webpack_require__.e/* import() */(10).then(__webpack_require__.bind(null, "tShD"));
 };
 var setting = function setting() {
-  return __webpack_require__.e/* import() */(18).then(__webpack_require__.bind(null, "4aQ1"));
+  return __webpack_require__.e/* import() */(20).then(__webpack_require__.bind(null, "4aQ1"));
 };
 var error404 = function error404() {
-  return __webpack_require__.e/* import() */(20).then(__webpack_require__.bind(null, "iJcd"));
+  return __webpack_require__.e/* import() */(22).then(__webpack_require__.bind(null, "iJcd"));
 };
 var error403 = function error403() {
-  return __webpack_require__.e/* import() */(21).then(__webpack_require__.bind(null, "iTjR"));
+  return __webpack_require__.e/* import() */(23).then(__webpack_require__.bind(null, "iTjR"));
 };
 var homeworkLoading = function homeworkLoading() {
-  return __webpack_require__.e/* import() */(14).then(__webpack_require__.bind(null, "X8de"));
+  return __webpack_require__.e/* import() */(16).then(__webpack_require__.bind(null, "X8de"));
 };
 var gift_list = function gift_list() {
-  return __webpack_require__.e/* import() */(7).then(__webpack_require__.bind(null, "hkUa"));
+  return __webpack_require__.e/* import() */(8).then(__webpack_require__.bind(null, "hkUa"));
 };
 var diamond_bill = function diamond_bill() {
-  return __webpack_require__.e/* import() */(10).then(__webpack_require__.bind(null, "Pf6W"));
+  return __webpack_require__.e/* import() */(11).then(__webpack_require__.bind(null, "Pf6W"));
 };
 var hot_activity = function hot_activity() {
-  return __webpack_require__.e/* import() */(5).then(__webpack_require__.bind(null, "TcXW"));
+  return __webpack_require__.e/* import() */(6).then(__webpack_require__.bind(null, "TcXW"));
 };
-var test_result = function test_result() {
-  return __webpack_require__.e/* import() */(5).then(__webpack_require__.bind(null, "y7YP"));
+var library_entry = function library_entry() {
+  return __webpack_require__.e/* import() */(13).then(__webpack_require__.bind(null, "X8mZ"));
 };
-
+var origin_library = function origin_library() {
+  return __webpack_require__.e/* import() */(4).then(__webpack_require__.bind(null, "Z4w4"));
+};
 
 
 var decorator = '';
@@ -220,10 +222,6 @@ var decorator = '';
   component: otherCourse,
   title: '其他课程 - VIPKID在线少儿英语'
 }, {
-  path: decorator + '/digitalLibrary',
-  component: digitalLibrary,
-  title: '数字图书馆 - VIPKID在线少儿英语'
-}, {
   path: decorator + '/myBookshelf',
   component: myBookshelf,
   title: '数字图书馆 - VIPKID在线少儿英语'
@@ -231,10 +229,6 @@ var decorator = '';
   path: decorator + '/major_extension_mc',
   component: majorExtensionMc,
   title: '主修拓展 - VIPKID在线少儿英语'
-}, {
-  path: decorator + '/digitalLibrary',
-  component: digitalLibrary,
-  title: '数字图书馆 - VIPKID在线少儿英语'
 }, {
   path: decorator + '/myBookshelf',
   component: myBookshelf,
@@ -272,6 +266,18 @@ var decorator = '';
   path: decorator + '/hot_activity',
   component: hot_activity,
   title: "热门活动 - VIPKID在线少儿英语"
+}, {
+  path: decorator + '/digitalLibrary',
+  component: library_entry,
+  title: '数字图书馆 - VIPKID在线少儿英语'
+}, {
+  path: decorator + '/digitalLibrary/vo',
+  component: origin_library,
+  title: '原创系列 - VIPKID在线少儿英语'
+}, {
+  path: decorator + '/digitalLibrary/pb',
+  component: digitalLibrary,
+  title: '原版引进 - VIPKID在线少儿英语'
 },
 //进教室+课程回放跳到www.vipkid.com.cn
 {
@@ -285,10 +291,6 @@ var decorator = '';
   path: '/403',
   component: error403,
   title: '无权限 - VIPKID在线少儿英语'
-}, {
-  path: '/test_result',
-  component: test_result,
-  title: '测试报告 - VIPKID在线少儿英语'
 }, {
   path: '*',
   component: error404,
@@ -862,6 +864,236 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "78g2":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "src/img/readers/book-2c39dd3188d4f3fea251d1667f77c10f.png";
+
+/***/ }),
+
+/***/ "8CB3":
+/***/ (function(module, exports) {
+
+/*
+	MIT License http://www.opensource.org/licenses/mit-license.php
+	Author Tobias Koppers @sokra
+*/
+var stylesInDom = {},
+	memoize = function(fn) {
+		var memo;
+		return function () {
+			if (typeof memo === "undefined") memo = fn.apply(this, arguments);
+			return memo;
+		};
+	},
+	isOldIE = memoize(function() {
+		return /msie [6-9]\b/.test(window.navigator.userAgent.toLowerCase());
+	}),
+	getHeadElement = memoize(function () {
+		return document.head || document.getElementsByTagName("head")[0];
+	}),
+	singletonElement = null,
+	singletonCounter = 0,
+	styleElementsInsertedAtTop = [];
+
+module.exports = function(list, options) {
+	if(typeof DEBUG !== "undefined" && DEBUG) {
+		if(typeof document !== "object") throw new Error("The style-loader cannot be used in a non-browser environment");
+	}
+
+	options = options || {};
+	// Force single-tag solution on IE6-9, which has a hard limit on the # of <style>
+	// tags it will allow on a page
+	if (typeof options.singleton === "undefined") options.singleton = isOldIE();
+
+	// By default, add <style> tags to the bottom of <head>.
+	if (typeof options.insertAt === "undefined") options.insertAt = "bottom";
+
+	var styles = listToStyles(list);
+	addStylesToDom(styles, options);
+
+	return function update(newList) {
+		var mayRemove = [];
+		for(var i = 0; i < styles.length; i++) {
+			var item = styles[i];
+			var domStyle = stylesInDom[item.id];
+			domStyle.refs--;
+			mayRemove.push(domStyle);
+		}
+		if(newList) {
+			var newStyles = listToStyles(newList);
+			addStylesToDom(newStyles, options);
+		}
+		for(var i = 0; i < mayRemove.length; i++) {
+			var domStyle = mayRemove[i];
+			if(domStyle.refs === 0) {
+				for(var j = 0; j < domStyle.parts.length; j++)
+					domStyle.parts[j]();
+				delete stylesInDom[domStyle.id];
+			}
+		}
+	};
+}
+
+function addStylesToDom(styles, options) {
+	for(var i = 0; i < styles.length; i++) {
+		var item = styles[i];
+		var domStyle = stylesInDom[item.id];
+		if(domStyle) {
+			domStyle.refs++;
+			for(var j = 0; j < domStyle.parts.length; j++) {
+				domStyle.parts[j](item.parts[j]);
+			}
+			for(; j < item.parts.length; j++) {
+				domStyle.parts.push(addStyle(item.parts[j], options));
+			}
+		} else {
+			var parts = [];
+			for(var j = 0; j < item.parts.length; j++) {
+				parts.push(addStyle(item.parts[j], options));
+			}
+			stylesInDom[item.id] = {id: item.id, refs: 1, parts: parts};
+		}
+	}
+}
+
+function listToStyles(list) {
+	var styles = [];
+	var newStyles = {};
+	for(var i = 0; i < list.length; i++) {
+		var item = list[i];
+		var id = item[0];
+		var css = item[1];
+		var media = item[2];
+		var sourceMap = item[3];
+		var part = {css: css, media: media, sourceMap: sourceMap};
+		if(!newStyles[id])
+			styles.push(newStyles[id] = {id: id, parts: [part]});
+		else
+			newStyles[id].parts.push(part);
+	}
+	return styles;
+}
+
+function insertStyleElement(options, styleElement) {
+	var head = getHeadElement();
+	var lastStyleElementInsertedAtTop = styleElementsInsertedAtTop[styleElementsInsertedAtTop.length - 1];
+	if (options.insertAt === "top") {
+		if(!lastStyleElementInsertedAtTop) {
+			head.insertBefore(styleElement, head.firstChild);
+		} else if(lastStyleElementInsertedAtTop.nextSibling) {
+			head.insertBefore(styleElement, lastStyleElementInsertedAtTop.nextSibling);
+		} else {
+			head.appendChild(styleElement);
+		}
+		styleElementsInsertedAtTop.push(styleElement);
+	} else if (options.insertAt === "bottom") {
+		head.appendChild(styleElement);
+	} else {
+		throw new Error("Invalid value for parameter 'insertAt'. Must be 'top' or 'bottom'.");
+	}
+}
+
+function removeStyleElement(styleElement) {
+	styleElement.parentNode.removeChild(styleElement);
+	var idx = styleElementsInsertedAtTop.indexOf(styleElement);
+	if(idx >= 0) {
+		styleElementsInsertedAtTop.splice(idx, 1);
+	}
+}
+
+function createStyleElement(options) {
+	var styleElement = document.createElement("style");
+	styleElement.type = "text/css";
+	insertStyleElement(options, styleElement);
+	return styleElement;
+}
+
+function addStyle(obj, options) {
+	var styleElement, update, remove;
+
+	if (options.singleton) {
+		var styleIndex = singletonCounter++;
+		styleElement = singletonElement || (singletonElement = createStyleElement(options));
+		update = applyToSingletonTag.bind(null, styleElement, styleIndex, false);
+		remove = applyToSingletonTag.bind(null, styleElement, styleIndex, true);
+	} else {
+		styleElement = createStyleElement(options);
+		update = applyToTag.bind(null, styleElement);
+		remove = function() {
+			removeStyleElement(styleElement);
+		};
+	}
+
+	update(obj);
+
+	return function updateStyle(newObj) {
+		if(newObj) {
+			if(newObj.css === obj.css && newObj.media === obj.media && newObj.sourceMap === obj.sourceMap)
+				return;
+			update(obj = newObj);
+		} else {
+			remove();
+		}
+	};
+}
+
+var replaceText = (function () {
+	var textStore = [];
+
+	return function (index, replacement) {
+		textStore[index] = replacement;
+		return textStore.filter(Boolean).join('\n');
+	};
+})();
+
+function applyToSingletonTag(styleElement, index, remove, obj) {
+	var css = remove ? "" : obj.css;
+
+	if (styleElement.styleSheet) {
+		styleElement.styleSheet.cssText = replaceText(index, css);
+	} else {
+		var cssNode = document.createTextNode(css);
+		var childNodes = styleElement.childNodes;
+		if (childNodes[index]) styleElement.removeChild(childNodes[index]);
+		if (childNodes.length) {
+			styleElement.insertBefore(cssNode, childNodes[index]);
+		} else {
+			styleElement.appendChild(cssNode);
+		}
+	}
+}
+
+function applyToTag(styleElement, obj) {
+	var css = obj.css;
+	var media = obj.media;
+	var sourceMap = obj.sourceMap;
+
+	if (media) {
+		styleElement.setAttribute("media", media);
+	}
+
+	if (sourceMap) {
+		// https://developer.chrome.com/devtools/docs/javascript-debugging
+		// this makes source maps inside style tags work properly in Chrome
+		css += '\n/*# sourceURL=' + sourceMap.sources[0] + ' */';
+		// http://stackoverflow.com/a/26603875
+		css += "\n/*# sourceMappingURL=data:application/json;base64," + btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))) + " */";
+	}
+
+	if (styleElement.styleSheet) {
+		styleElement.styleSheet.cssText = css;
+	} else {
+		while(styleElement.firstChild) {
+			styleElement.removeChild(styleElement.firstChild);
+		}
+		styleElement.appendChild(document.createTextNode(css));
+	}
+}
+
 
 /***/ }),
 
@@ -5927,7 +6159,7 @@ var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._sel
     attrs: {
       "imgConfig": _vm.giftConfig
     }
-  }) : _vm._e(), _c('student-info')], 1)
+  }) : _vm._e()], 1)
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -6356,6 +6588,20 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /***/ }),
 
+/***/ "D3Js":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "src/img/index/bg/bg_star-d48c2b327f05f8ac26361761671a0b03.png";
+
+/***/ }),
+
+/***/ "D6IJ":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "src/img/icon/icon_header-f6870b1055d45ae46b14d4fc165ef6a2.png";
+
+/***/ }),
+
 /***/ "DI8/":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6664,6 +6910,13 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /***/ }),
 
+/***/ "DkAJ":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "src/img/common/back-pressed-b08c6a7499c1fb406e553ce17a442bf2.png";
+
+/***/ }),
+
 /***/ "Dlum":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -6749,6 +7002,89 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /***/ }),
 
+/***/ "FZ+f":
+/***/ (function(module, exports) {
+
+/*
+	MIT License http://www.opensource.org/licenses/mit-license.php
+	Author Tobias Koppers @sokra
+*/
+// css base code, injected by the css-loader
+module.exports = function(useSourceMap) {
+	var list = [];
+
+	// return the list of modules as css string
+	list.toString = function toString() {
+		return this.map(function (item) {
+			var content = cssWithMappingToString(item, useSourceMap);
+			if(item[2]) {
+				return "@media " + item[2] + "{" + content + "}";
+			} else {
+				return content;
+			}
+		}).join("");
+	};
+
+	// import a list of modules into the list
+	list.i = function(modules, mediaQuery) {
+		if(typeof modules === "string")
+			modules = [[null, modules, ""]];
+		var alreadyImportedModules = {};
+		for(var i = 0; i < this.length; i++) {
+			var id = this[i][0];
+			if(typeof id === "number")
+				alreadyImportedModules[id] = true;
+		}
+		for(i = 0; i < modules.length; i++) {
+			var item = modules[i];
+			// skip already imported module
+			// this implementation is not 100% perfect for weird media query combinations
+			//  when a module is imported multiple times with different media queries.
+			//  I hope this will never occur (Hey this way we have smaller bundles)
+			if(typeof item[0] !== "number" || !alreadyImportedModules[item[0]]) {
+				if(mediaQuery && !item[2]) {
+					item[2] = mediaQuery;
+				} else if(mediaQuery) {
+					item[2] = "(" + item[2] + ") and (" + mediaQuery + ")";
+				}
+				list.push(item);
+			}
+		}
+	};
+	return list;
+};
+
+function cssWithMappingToString(item, useSourceMap) {
+	var content = item[1] || '';
+	var cssMapping = item[3];
+	if (!cssMapping) {
+		return content;
+	}
+
+	if (useSourceMap && typeof btoa === 'function') {
+		var sourceMapping = toComment(cssMapping);
+		var sourceURLs = cssMapping.sources.map(function (source) {
+			return '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'
+		});
+
+		return [content].concat(sourceURLs).concat([sourceMapping]).join('\n');
+	}
+
+	return [content].join('\n');
+}
+
+// Adapted from convert-source-map (MIT)
+function toComment(sourceMap) {
+	// eslint-disable-next-line no-undef
+	var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));
+	var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;
+
+	return '/*# ' + data + ' */';
+}
+
+
+/***/ }),
+
 /***/ "Fktb":
 /***/ (function(module, exports) {
 
@@ -6825,6 +7161,13 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     }
   }
 });
+
+/***/ }),
+
+/***/ "GHxH":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "src/img/common/back-hover-05da4c189d4792692befd13c5911b32a.png";
 
 /***/ }),
 
@@ -6964,35 +7307,6 @@ if (false) {
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ "Hq1d":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  data: function data() {
-    return {};
-  },
-  components: {},
-  computed: {},
-  mounted: function mounted() {},
-
-  methods: {}
-});
 
 /***/ }),
 
@@ -7783,6 +8097,13 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /***/ }),
 
+/***/ "MJzp":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "src/img/common/back-bb17b4e4e38765b261174e7fa7ab320d.png";
+
+/***/ }),
+
 /***/ "N4Ud":
 /***/ (function(module, exports) {
 
@@ -8512,6 +8833,13 @@ module.exports = Component.exports
 
 /***/ }),
 
+/***/ "UeUu":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "src/img/common/toast_x2-1ecf858958d3b53545e5cb1188e396a9.png";
+
+/***/ }),
+
 /***/ "UrxW":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9115,6 +9443,20 @@ if (false) {
 
 /***/ }),
 
+/***/ "Zec9":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "src/img/major_extension/orage-button-hover-dbdb633161331951cafccf84759d787e.png";
+
+/***/ }),
+
+/***/ "ZfXp":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "src/img/major_extension/orage-button-pressed-24cf664972c674d53c0e72698bbae620.png";
+
+/***/ }),
+
 /***/ "aJ50":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9274,13 +9616,6 @@ if (false) {
 /***/ }),
 
 /***/ "aUlT":
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ "aVQP":
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
@@ -9816,6 +10151,13 @@ if (false) {(function () {
 
 module.exports = Component.exports
 
+
+/***/ }),
+
+/***/ "bv/O":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "src/img/icon/icon_index-97a54ff02b0bd677fd2add066d64f826.png";
 
 /***/ }),
 
@@ -12356,6 +12698,13 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /***/ }),
 
+/***/ "grMp":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "src/img/major_extension/orage-button-normal-08fae6de6681bb6af2845191d43c3777.png";
+
+/***/ }),
+
 /***/ "h3Ie":
 /***/ (function(module, exports) {
 
@@ -13774,6 +14123,13 @@ module.exports = Component.exports
 
 /***/ }),
 
+/***/ "tXqy":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "src/img/coursewarefail-e00155ae8861ab630cc9700fb8e515a1.png";
+
+/***/ }),
+
 /***/ "tnpE":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14075,38 +14431,6 @@ module.exports = __webpack_require__.p + "src/img/common/avatar/girl_2-1fec5e8fa
 
 /***/ }),
 
-/***/ "vnDP":
-/***/ (function(module, exports, __webpack_require__) {
-
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _vm._m(0)
-}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    staticClass: "student-info"
-  }, [_c('div', {
-    staticClass: "top"
-  }), _c('div', {
-    staticClass: "tab-1"
-  }), _c('div', {
-    staticClass: "tab-2"
-  }), _c('div', {
-    staticClass: "student-inner"
-  }, [_c('div', {
-    staticClass: "si-bg"
-  })])])
-}]
-render._withStripped = true
-module.exports = { render: render, staticRenderFns: staticRenderFns }
-if (false) {
-  module.hot.accept()
-  if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-097d505c", module.exports)
-  }
-}
-
-/***/ }),
-
 /***/ "w/ak":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -14367,8 +14691,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__components_guide_model_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_17__components_guide_model_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__components_gift_animate_vue__ = __webpack_require__("SUdm");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__components_gift_animate_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_18__components_gift_animate_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__components_student_info_vue__ = __webpack_require__("yk9G");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__components_student_info_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_19__components_student_info_vue__);
 //
 //
 //
@@ -14411,9 +14733,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-
 
 
 
@@ -14509,8 +14828,7 @@ __WEBPACK_IMPORTED_MODULE_0_vue__["default"].use(__WEBPACK_IMPORTED_MODULE_15__c
     guide: __WEBPACK_IMPORTED_MODULE_12__components_guide_vue___default.a,
     unlockCard: __WEBPACK_IMPORTED_MODULE_13__components_unlock_card_vue___default.a,
     iBody: __WEBPACK_IMPORTED_MODULE_6__components_index_body_vue___default.a,
-    giftAnimate: __WEBPACK_IMPORTED_MODULE_18__components_gift_animate_vue___default.a,
-    studentInfo: __WEBPACK_IMPORTED_MODULE_19__components_student_info_vue___default.a
+    giftAnimate: __WEBPACK_IMPORTED_MODULE_18__components_gift_animate_vue___default.a
   },
   computed: {},
   mounted: function mounted() {
@@ -15486,57 +15804,6 @@ var noImg = __webpack_require__("fueH");
     }
   }
 });
-
-/***/ }),
-
-/***/ "yk9G":
-/***/ (function(module, exports, __webpack_require__) {
-
-var disposed = false
-function injectStyle (ssrContext) {
-  if (disposed) return
-  __webpack_require__("aVQP")
-}
-var normalizeComponent = __webpack_require__("VU/8")
-/* script */
-var __vue_script__ = __webpack_require__("Hq1d")
-/* template */
-var __vue_template__ = __webpack_require__("vnDP")
-/* styles */
-var __vue_styles__ = injectStyle
-/* scopeId */
-var __vue_scopeId__ = "data-v-097d505c"
-/* moduleIdentifier (server only) */
-var __vue_module_identifier__ = null
-var Component = normalizeComponent(
-  __vue_script__,
-  __vue_template__,
-  __vue_styles__,
-  __vue_scopeId__,
-  __vue_module_identifier__
-)
-Component.options.__file = "src/pages/index/components/student_info.vue"
-if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
-if (Component.options.functional) {console.error("[vue-loader] student_info.vue: functional components are not supported with templates, they should use render functions.")}
-
-/* hot reload */
-if (false) {(function () {
-  var hotAPI = require("vue-hot-reload-api")
-  hotAPI.install(require("vue"), false)
-  if (!hotAPI.compatible) return
-  module.hot.accept()
-  if (!module.hot.data) {
-    hotAPI.createRecord("data-v-097d505c", Component.options)
-  } else {
-    hotAPI.reload("data-v-097d505c", Component.options)
-  }
-  module.hot.dispose(function (data) {
-    disposed = true
-  })
-})()}
-
-module.exports = Component.exports
-
 
 /***/ }),
 

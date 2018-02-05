@@ -4,17 +4,17 @@ header("Content-type: text/html; charset=utf-8");
 $code = $_GET['code'];
 $state = $_GET['state'];
 if(empty($code)||empty($state)){
-   header("Location:https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx4069e1635ae1be38&redirect_uri=http%3a%2f%2fwww.simamedia.cn%2fgames%2fsn%2findex.php&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect");
+   header("Location:https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxcab109d9266ed8de&redirect_uri=http%3a%2f%2fwww.simamedia.cn%2fgames%2fsn%2findex.php&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect");
    exit;
 }
-$url = 'https://api.weixin.qq.com/sns/oauth2/access_token?appid=wx4069e1635ae1be38&secret=4578c042ea9361b6e16626f1aa3d7e52&code=' . $code . '&grant_type=authorization_code';
+$url = 'https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxcab109d9266ed8de&secret=f3893705014b2b73a0dfe16cd37b18ac&code=' . $code . '&grant_type=authorization_code';
 $user = null;
 try {
     $result = curlGet($url);
     $obj = json_decode($result);
     $openid = $obj->openid;
 	if(empty($openid)){
-	header("Location:https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx4069e1635ae1be38&redirect_uri=http%3a%2f%2fwww.simamedia.cn%2fgames%2fsn%2findex.php&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect");
+	header("Location:https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxcab109d9266ed8de&redirect_uri=http%3a%2f%2fwww.simamedia.cn%2fgames%2fsn%2findex.php&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect");
       exit;
 	}
     $at=$obj->access_token;
@@ -174,7 +174,7 @@ function curlGet($url, $method = 'get', $data = '')
 			跳过
 		</div>
 		<div class="top"></div>
-		<video src="mp4/mov.mp4" preload="auto"  id="mov"></video>
+	    <video src="mp4/mov.mp4" preload="auto"  id="mov"></video>
 	</div>
 	<img src="images/code.jpg" class="code" id="code">
 	<img data-src="http://data.simamedia.cn/index.php?g=Restful&m=Sn&a=pic&openid=<?php  echo $user->openid;?>&p=p1&name=<?php  echo $user->nickname;?>&actor=<?php  echo $user->headimgurl;?>" class="pc" id="pc1">
