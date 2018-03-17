@@ -174,7 +174,7 @@ function curlGet($url, $method = 'get', $data = '')
 			跳过
 		</div>
 		<div class="top"></div>
-	    <video src="mp4/mov.mp4" preload="auto"  id="mov"></video>
+	    <video src="mp4/mov1.mp4" preload="none"  id="mov"></video>
 	</div>
 	<img src="images/code.jpg" class="code" id="code">
 	<img data-src="http://data.simamedia.cn/index.php?g=Restful&m=Sn&a=pic&openid=<?php  echo $user->openid;?>&p=p1&name=<?php  echo $user->nickname;?>&actor=<?php  echo $user->headimgurl;?>" class="pc" id="pc1">
@@ -190,11 +190,11 @@ function curlGet($url, $method = 'get', $data = '')
         <!--粒子类库-->
         <script type="text/javascript" src="libs/min/laya.ui.min.js"></script>
         <script type="text/javascript" src="libs/min/jweixin-1.0.0.js"></script>
-        <script src="src/ui/layaUI.max.all.js?v=343343"></script>
+        <script src="src/ui/layaUI.max.all.js?v=343322243"></script>
         <!--自定义的js(bin/js文件夹下)文件自动添加到下面jsfile模块标签里面里，js的顺序可以手动修改，修改后保留修改的顺序，新增加的js会默认依次追加到标签里-->
         <!--删除标签，ide不会自动添加js文件，请谨慎操作-->
         <!--jsfile--startTag-->
-        <script src="src/main.js?v=324143"></script>
+        <script src="src/main.js?v=324141113"></script>
         <!--jsfile--endTag-->
         <script type="text/javascript">
     var _mtac = {};

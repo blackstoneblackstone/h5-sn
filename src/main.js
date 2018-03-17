@@ -49,16 +49,16 @@ function onLoaded() {
   })
   index.on(Laya.Event.CLICK, this, function (e) {
     document.getElementById("layaContainer").style.display = "none"
-    document.getElementById("vid").style.display = "block"
-    mov = document.getElementById("mov")
-    mov.play()
-    musicPlay.pause()
-    playing = false
-    music.skin = "images/music-close.png";
+    // document.getElementById("vid").style.display = "block"
+    // mov = document.getElementById("mov")
+    // mov.play()
+    // musicPlay.pause()
+    // playing = false
+    // music.skin = "images/music-close.png";
     Laya.stage.removeChildren(1);
-    mov.onended = function () {
+    // mov.onended = function () {
       p2()
-    }
+    // }
   })
   musicShow()
 }
@@ -98,7 +98,7 @@ function p2() {
   }
   playing = true
   musicShow()
-  mov.pause()
+  // mov.pause()
   var bottom = new Laya.Image()
   bottom.skin = "images/sdd.png"
   bottom.width = 122
